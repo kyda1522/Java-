@@ -2,312 +2,284 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JavaMaster</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        h3, h4 {
-            font-weight: bold;
-        }
-
-        li {
-            font-size: 18px;
-            line-height: 30px;
-        }
-
-        a:link {
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: #337ab7;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #244f7d;
-            text-decoration: none;
-        }
-    </style>
-    <script>
-
-    </script>
 </head>
 <body>
 <div style="padding-left: 50px">
 
-### ½éÉÜ
+### ä»‹ç»
 
-*   [ÇëÄã½éÉÜÏÂËù×öµÄÏîÄ¿](https://mp.weixin.qq.com/s/brSm7ZrV53U6qZPIsUxQdQ?)
+*   [è¯·ä½ ä»‹ç»ä¸‹æ‰€åšçš„é¡¹ç›®](https://mp.weixin.qq.com/s/brSm7ZrV53U6qZPIsUxQdQ?)
 
-### Java»ù´¡
+### JavaåŸºç¡€
 
-#### »ù´¡
+#### åŸºç¡€
 
-*   [ÃæÏò¶ÔÏóÌØÕ÷](https://blog.csdn.net/lyg_come_on/article/details/52781884)
-*   [final, finally, finalizeµÄÇø±ğ](https://blog.csdn.net/cyl101816/article/details/67640843)
-*   [int ºÍ Integer ÓĞÊ²Ã´Çø±ğ](https://blog.csdn.net/login_sonata/article/details/71001851)
-*   [ÖØÔØºÍÖØĞ´µÄÇø±ğ](https://blog.csdn.net/u010697681/article/details/79414112#_73)
-*   [³éÏóÀàºÍ½Ó¿ÚÓĞÊ²Ã´Çø±ğ](https://blog.csdn.net/dengminghli/article/details/71056874)
-*   [ËµËµ·´ÉäµÄÓÃÍ¾¼°ÊµÏÖ](https://blog.csdn.net/SongYuxinIT/article/details/81872066)
-*   [ËµËµ×Ô¶¨Òå×¢½âµÄ³¡¾°¼°ÊµÏÖ](https://blog.csdn.net/qq_37581282/article/details/82655326)
-*   [HTTP ÇëÇóµÄ GET Óë POST ·½Ê½µÄÇø±ğ](https://www.cnblogs.com/ouyanxia/p/8205307.html)
-*   [session Óë cookie Çø±ğ](https://blog.csdn.net/liyifan687/article/details/80077928)
-*   [JDBC Á÷³Ì](https://www.cnblogs.com/lightandtruth/p/9473862.html)
-*   [MVC Éè¼ÆË¼Ïë](https://blog.csdn.net/daijin888888/article/details/51169156)
-*   [equals Óë == µÄÇø±ğ](https://blog.csdn.net/g_66_hero/article/details/71081315)
-*   [JAVAËøÓĞÄÄĞ©ÖÖÀà£¬ÒÔ¼°Çø±ğ](https://www.cnblogs.com/lxmyhappy/p/7380073.html)
+*   [é¢å‘å¯¹è±¡ç‰¹å¾](https://blog.csdn.net/lyg_come_on/article/details/52781884)
+*   [final, finally, finalizeçš„åŒºåˆ«](https://blog.csdn.net/cyl101816/article/details/67640843)
+*   [int å’Œ Integer æœ‰ä»€ä¹ˆåŒºåˆ«](https://blog.csdn.net/login_sonata/article/details/71001851)
+*   [é‡è½½å’Œé‡å†™çš„åŒºåˆ«](https://blog.csdn.net/u010697681/article/details/79414112#_73)
+*   [æŠ½è±¡ç±»å’Œæ¥å£æœ‰ä»€ä¹ˆåŒºåˆ«](https://blog.csdn.net/dengminghli/article/details/71056874)
+*   [è¯´è¯´åå°„çš„ç”¨é€”åŠå®ç°](https://blog.csdn.net/SongYuxinIT/article/details/81872066)
+*   [è¯´è¯´è‡ªå®šä¹‰æ³¨è§£çš„åœºæ™¯åŠå®ç°](https://blog.csdn.net/qq_37581282/article/details/82655326)
+*   [HTTP è¯·æ±‚çš„ GET ä¸ POST æ–¹å¼çš„åŒºåˆ«](https://www.cnblogs.com/ouyanxia/p/8205307.html)
+*   [session ä¸ cookie åŒºåˆ«](https://blog.csdn.net/liyifan687/article/details/80077928)
+*   [JDBC æµç¨‹](https://www.cnblogs.com/lightandtruth/p/9473862.html)
+*   [MVC è®¾è®¡æ€æƒ³](https://blog.csdn.net/daijin888888/article/details/51169156)
+*   [equals ä¸ == çš„åŒºåˆ«](https://blog.csdn.net/g_66_hero/article/details/71081315)
+*   [JAVAé”æœ‰å“ªäº›ç§ç±»ï¼Œä»¥åŠåŒºåˆ«](https://www.cnblogs.com/lxmyhappy/p/7380073.html)
 
-#### ¼¯ºÏ
+#### é›†åˆ
 
-*   [List ºÍ Set Çø±ğ](https://www.cnblogs.com/IvesHe/p/6108933.html)
-*   [List ºÍ Map Çø±ğ](https://www.cnblogs.com/IvesHe/p/6108933.html)
-*   [Arraylist Óë LinkedList Çø±ğ](https://blog.csdn.net/qq_32679815/article/details/78907437)
-*   [ArrayList Óë Vector Çø±ğ](https://www.cnblogs.com/efforts-will-be-lucky/p/7053666.html)
-*   [HashMap ºÍ Hashtable µÄÇø±ğ](https://www.cnblogs.com/efforts-will-be-lucky/p/7053666.html)
-*   [HashSet ºÍ HashMap Çø±ğ](https://www.cnblogs.com/codercui/p/6841730.html)
-*   [HashMap ºÍ ConcurrentHashMap µÄÇø±ğ](https://www.cnblogs.com/heyonggang/p/9112731.html)
-*   [HashMap µÄ¹¤×÷Ô­Àí¼°´úÂëÊµÏÖ](http://www.importnew.com/28263.html)
-*   [ConcurrentHashMap µÄ¹¤×÷Ô­Àí¼°´úÂëÊµÏÖ](http://www.importnew.com/28263.html)
-*   [HashMap µÄÓÅ»¯](http://www.importnew.com/21429.html)
+*   [List å’Œ Set åŒºåˆ«](https://www.cnblogs.com/IvesHe/p/6108933.html)
+*   [List å’Œ Map åŒºåˆ«](https://www.cnblogs.com/IvesHe/p/6108933.html)
+*   [Arraylist ä¸ LinkedList åŒºåˆ«](https://blog.csdn.net/qq_32679815/article/details/78907437)
+*   [ArrayList ä¸ Vector åŒºåˆ«](https://www.cnblogs.com/efforts-will-be-lucky/p/7053666.html)
+*   [HashMap å’Œ Hashtable çš„åŒºåˆ«](https://www.cnblogs.com/efforts-will-be-lucky/p/7053666.html)
+*   [HashSet å’Œ HashMap åŒºåˆ«](https://www.cnblogs.com/codercui/p/6841730.html)
+*   [HashMap å’Œ ConcurrentHashMap çš„åŒºåˆ«](https://www.cnblogs.com/heyonggang/p/9112731.html)
+*   [HashMap çš„å·¥ä½œåŸç†åŠä»£ç å®ç°](http://www.importnew.com/28263.html)
+*   [ConcurrentHashMap çš„å·¥ä½œåŸç†åŠä»£ç å®ç°](http://www.importnew.com/28263.html)
+*   [HashMap çš„ä¼˜åŒ–](http://www.importnew.com/21429.html)
 
-#### Ïß³Ì
+#### çº¿ç¨‹
 
-*   [´´½¨Ïß³ÌµÄ·½Ê½¼°ÊµÏÖ](https://www.cnblogs.com/wxw7blog/p/7727510.html)
-*   [sleep() ¡¢join£¨£©¡¢yield£¨£©ÓĞÊ²Ã´Çø±ğ](https://blog.csdn.net/u011296485/article/details/77914205)
-*   [ËµËµ CountDownLatch Ô­Àí](https://www.jianshu.com/p/7c7a5df5bda6?ref=myread)
-*   [ËµËµ CyclicBarrier Ô­Àí](https://www.jianshu.com/p/060761df128b)
-*   [ËµËµ Semaphore Ô­Àí](https://www.jianshu.com/p/060761df128b)
-*   [ËµËµ CountDownLatch Óë CyclicBarrier Çø±ğ](https://blog.csdn.net/u010697681/article/details/79414112#_CountDownLatch__CyclicBarrier__614)
-*   [CountDownLatch¡¢CyclicBarrier¡¢Semaphore ÓÃ·¨](http://www.cnblogs.com/dolphin0520/p/3920397.html)
-*   [ËµËµ Exchanger Ô­Àí](http://lixuanbin.iteye.com/blog/2166772)
-*   [ThreadLocal Ô­Àí·ÖÎö](https://www.cnblogs.com/dolphin0520/p/3920407.html)
-*   [½²½²Ïß³Ì³ØµÄÊµÏÖÔ­Àí](http://www.cnblogs.com/dolphin0520/p/3932921.html)
-*   [Ïß³Ì³ØµÄ¼¸ÖÖ·½Ê½ÓëÊ¹ÓÃ³¡¾°](https://blog.csdn.net/cyantide/article/details/50880211)
-*   [Ïß³ÌµÄÉúÃüÖÜÆÚ](https://blog.csdn.net/houbin0912/article/details/77969563)
+*   [åˆ›å»ºçº¿ç¨‹çš„æ–¹å¼åŠå®ç°](https://www.cnblogs.com/wxw7blog/p/7727510.html)
+*   [sleep() ã€joinï¼ˆï¼‰ã€yieldï¼ˆï¼‰æœ‰ä»€ä¹ˆåŒºåˆ«](https://blog.csdn.net/u011296485/article/details/77914205)
+*   [è¯´è¯´ CountDownLatch åŸç†](https://www.jianshu.com/p/7c7a5df5bda6?ref=myread)
+*   [è¯´è¯´ CyclicBarrier åŸç†](https://www.jianshu.com/p/060761df128b)
+*   [è¯´è¯´ Semaphore åŸç†](https://www.jianshu.com/p/060761df128b)
+*   [è¯´è¯´ CountDownLatch ä¸ CyclicBarrier åŒºåˆ«](https://blog.csdn.net/u010697681/article/details/79414112#_CountDownLatch__CyclicBarrier__614)
+*   [CountDownLatchã€CyclicBarrierã€Semaphore ç”¨æ³•](http://www.cnblogs.com/dolphin0520/p/3920397.html)
+*   [è¯´è¯´ Exchanger åŸç†](http://lixuanbin.iteye.com/blog/2166772)
+*   [ThreadLocal åŸç†åˆ†æ](https://www.cnblogs.com/dolphin0520/p/3920407.html)
+*   [è®²è®²çº¿ç¨‹æ± çš„å®ç°åŸç†](http://www.cnblogs.com/dolphin0520/p/3932921.html)
+*   [çº¿ç¨‹æ± çš„å‡ ç§æ–¹å¼ä¸ä½¿ç”¨åœºæ™¯](https://blog.csdn.net/cyantide/article/details/50880211)
+*   [çº¿ç¨‹çš„ç”Ÿå‘½å‘¨æœŸ](https://blog.csdn.net/houbin0912/article/details/77969563)
 
-#### Ëø»úÖÆ
+#### é”æœºåˆ¶
 
-*   [ËµËµÏß³Ì°²È«ÎÊÌâ](https://www.cnblogs.com/xumanbu/p/4203504.html)
-*   [volatile ÊµÏÖÔ­Àí](https://blog.csdn.net/calledwww/article/details/79350426)
-*   [synchronized ÊµÏÖÔ­Àí](https://www.cnblogs.com/paddix/p/5367116.html)
-*   [synchronized µ×²ãÓÅ»¯](http://www.cnblogs.com/paddix/p/5405678.html)
-*   [synchronized Óë lock µÄÇø±ğ](https://www.cnblogs.com/iyyy/p/7993788.html)
-*   [AQS Ô´Âë·ÖÎö](https://blog.csdn.net/aesop_wubo/article/details/7555956)
-*   [ReentrantLock ÊµÏÖÔ­Àí](https://www.cnblogs.com/xrq730/p/4979021.html)
-*   [CAS ÀÖ¹ÛËø](https://blog.csdn.net/caisongcheng_good/article/details/79916873)
-*   [ABA ÎÊÌâ](https://www.cnblogs.com/549294286/p/3766717.html)
-*   [ÀÖ¹ÛËøµÄÒµÎñ³¡¾°¼°ÊµÏÖ·½Ê½](https://blog.csdn.net/lxy344x/article/details/76560243)
+*   [è¯´è¯´çº¿ç¨‹å®‰å…¨é—®é¢˜](https://www.cnblogs.com/xumanbu/p/4203504.html)
+*   [volatile å®ç°åŸç†](https://blog.csdn.net/calledwww/article/details/79350426)
+*   [synchronized å®ç°åŸç†](https://www.cnblogs.com/paddix/p/5367116.html)
+*   [synchronized åº•å±‚ä¼˜åŒ–](http://www.cnblogs.com/paddix/p/5405678.html)
+*   [synchronized ä¸ lock çš„åŒºåˆ«](https://www.cnblogs.com/iyyy/p/7993788.html)
+*   [AQS æºç åˆ†æ](https://blog.csdn.net/aesop_wubo/article/details/7555956)
+*   [ReentrantLock å®ç°åŸç†](https://www.cnblogs.com/xrq730/p/4979021.html)
+*   [CAS ä¹è§‚é”](https://blog.csdn.net/caisongcheng_good/article/details/79916873)
+*   [ABA é—®é¢˜](https://www.cnblogs.com/549294286/p/3766717.html)
+*   [ä¹è§‚é”çš„ä¸šåŠ¡åœºæ™¯åŠå®ç°æ–¹å¼](https://blog.csdn.net/lxy344x/article/details/76560243)
 
-### ºËĞÄÆª
+### æ ¸å¿ƒç¯‡
 
-#### Êı¾İ´æ´¢
+#### æ•°æ®å­˜å‚¨
 
-*   [MySQL Ë÷ÒıÊ¹ÓÃµÄ×¢ÒâÊÂÏî](http://blog.720ui.com/2017/mysql_core_04_index_item/)
-*   [ËµËµ·´Ä£Ê½Éè¼Æ](http://blog.720ui.com/2017/mysql_core_07_anti-pattern/)
-*   [ËµËµ·Ö¿âÓë·Ö±íÉè¼Æ](http://blog.720ui.com/2017/mysql_core_08_multi_db_table/)
-*   [·Ö¿âÓë·Ö±í´øÀ´µÄ·Ö²¼Ê½À§¾³ÓëÓ¦¶ÔÖ®²ß](http://blog.720ui.com/2017/mysql_core_09_multi_db_table2/)
-*   [·Ö¿âÓë·Ö±í1](https://www.cnblogs.com/sunny3096/p/8595058.html)
-*   [·Ö¿âÓë·Ö±í2](https://www.cnblogs.com/sheseido/p/8880091.html)
-*   [Ë®Æ½·Ö¿âÈçºÎ×öµ½Æ½»¬À©Õ¹](https://baijiahao.baidu.com/s?id=1584744472767329273&wfr=spider&for=pc)
-*   [ËµËµ SQL ÓÅ»¯Ö®µÀ](http://www.cnblogs.com/yunfeifei/p/3850440.html)
-*   [Êı¾İ¿âÓÅ»¯µÄ¼¸¸ö½×¶Î](https://www.cnblogs.com/rjzheng/p/9619855.html)
-*   [MySQL Óöµ½µÄËÀËøÎÊÌâ](https://www.cnblogs.com/zejin2008/p/5262751.html)
-*   [´æ´¢ÒıÇæµÄ InnoDB Óë MyISAM](http://blog.720ui.com/2017/mysql_core_02_innodb_myisam/)
-*   [Êı¾İ¿âË÷ÒıµÄÔ­Àí](https://blog.csdn.net/suifeng3051/article/details/52669644)
-*   [ÎªÊ²Ã´ÒªÓÃ B-tree](https://blog.csdn.net/bigtree_3721/article/details/73151472)
-*   [¾Û¼¯Ë÷ÒıÓë·Ç¾Û¼¯Ë÷ÒıµÄÇø±ğ](https://blog.csdn.net/zc474235918/article/details/50580639)
-*   [limit 20000 ¼ÓÔØºÜÂıÔõÃ´½â¾ö](http://ourmysql.com/archives/1451)
-*   [Ñ¡ÔñºÏÊÊµÄ·Ö²¼Ê½Ö÷¼ü·½°¸](http://www.cnblogs.com/haoxinyue/p/5208136.html)
-*   [Ñ¡ÔñºÏÊÊµÄÊı¾İ´æ´¢·½°¸](http://blog.720ui.com/2017/db_better_db_use/)
-*   [ObjectId ¹æÔò](https://www.cnblogs.com/weilunhui/p/6861938.html)
-*   [ÁÄÁÄ MongoDB Ê¹ÓÃ³¡¾°](https://yq.aliyun.com/articles/64352)
-*   [µ¹ÅÅË÷Òı](https://www.cnblogs.com/zlslch/p/6440114.html)
-*   [ÁÄÁÄ ElasticSearch Ê¹ÓÃ³¡¾°](https://blog.csdn.net/king866/article/details/53557250)
+*   [MySQL ç´¢å¼•ä½¿ç”¨çš„æ³¨æ„äº‹é¡¹](http://blog.720ui.com/2017/mysql_core_04_index_item/)
+*   [è¯´è¯´åæ¨¡å¼è®¾è®¡](http://blog.720ui.com/2017/mysql_core_07_anti-pattern/)
+*   [è¯´è¯´åˆ†åº“ä¸åˆ†è¡¨è®¾è®¡](http://blog.720ui.com/2017/mysql_core_08_multi_db_table/)
+*   [åˆ†åº“ä¸åˆ†è¡¨å¸¦æ¥çš„åˆ†å¸ƒå¼å›°å¢ƒä¸åº”å¯¹ä¹‹ç­–](http://blog.720ui.com/2017/mysql_core_09_multi_db_table2/)
+*   [åˆ†åº“ä¸åˆ†è¡¨1](https://www.cnblogs.com/sunny3096/p/8595058.html)
+*   [åˆ†åº“ä¸åˆ†è¡¨2](https://www.cnblogs.com/sheseido/p/8880091.html)
+*   [æ°´å¹³åˆ†åº“å¦‚ä½•åšåˆ°å¹³æ»‘æ‰©å±•](https://baijiahao.baidu.com/s?id=1584744472767329273&wfr=spider&for=pc)
+*   [è¯´è¯´ SQL ä¼˜åŒ–ä¹‹é“](http://www.cnblogs.com/yunfeifei/p/3850440.html)
+*   [æ•°æ®åº“ä¼˜åŒ–çš„å‡ ä¸ªé˜¶æ®µ](https://www.cnblogs.com/rjzheng/p/9619855.html)
+*   [MySQL é‡åˆ°çš„æ­»é”é—®é¢˜](https://www.cnblogs.com/zejin2008/p/5262751.html)
+*   [å­˜å‚¨å¼•æ“çš„ InnoDB ä¸ MyISAM](http://blog.720ui.com/2017/mysql_core_02_innodb_myisam/)
+*   [æ•°æ®åº“ç´¢å¼•çš„åŸç†](https://blog.csdn.net/suifeng3051/article/details/52669644)
+*   [ä¸ºä»€ä¹ˆè¦ç”¨ B-tree](https://blog.csdn.net/bigtree_3721/article/details/73151472)
+*   [èšé›†ç´¢å¼•ä¸éèšé›†ç´¢å¼•çš„åŒºåˆ«](https://blog.csdn.net/zc474235918/article/details/50580639)
+*   [limit 20000 åŠ è½½å¾ˆæ…¢æ€ä¹ˆè§£å†³](http://ourmysql.com/archives/1451)
+*   [é€‰æ‹©åˆé€‚çš„åˆ†å¸ƒå¼ä¸»é”®æ–¹æ¡ˆ](http://www.cnblogs.com/haoxinyue/p/5208136.html)
+*   [é€‰æ‹©åˆé€‚çš„æ•°æ®å­˜å‚¨æ–¹æ¡ˆ](http://blog.720ui.com/2017/db_better_db_use/)
+*   [ObjectId è§„åˆ™](https://www.cnblogs.com/weilunhui/p/6861938.html)
+*   [èŠèŠ MongoDB ä½¿ç”¨åœºæ™¯](https://yq.aliyun.com/articles/64352)
+*   [å€’æ’ç´¢å¼•](https://www.cnblogs.com/zlslch/p/6440114.html)
+*   [èŠèŠ ElasticSearch ä½¿ç”¨åœºæ™¯](https://blog.csdn.net/king866/article/details/53557250)
 
-#### »º´æÊ¹ÓÃ
+#### ç¼“å­˜ä½¿ç”¨
 
-*   [Redis ÓĞÄÄĞ©ÀàĞÍ](https://blog.csdn.net/hcmony/article/details/80694560)
-*   [Redis ÄÚ²¿½á¹¹](https://www.cnblogs.com/wykCN/p/4533231.html)
-*   [Redis ÄÚ´æÌÔÌ­»úÖÆ](https://blog.csdn.net/hcmony/article/details/80694560)
-*   [ÁÄÁÄ Redis Ê¹ÓÃ³¡¾°](https://blog.csdn.net/hcmony/article/details/80694560)
-*   [Redis ³Ö¾Ã»¯»úÖÆ](http://blog.720ui.com/2016/redis_action_03_rdb_aof/)
-*   [Redis ¼¯Èº·½°¸ÓëÊµÏÖ](http://blog.720ui.com/2016/redis_action_04_cluster/)
-*   [Redis ÎªÊ²Ã´ÊÇµ¥Ïß³ÌµÄ](https://blog.csdn.net/hcmony/article/details/80694560)
-*   [»º´æ±ÀÀ£](https://blog.csdn.net/hcmony/article/details/80694560)
-*   [»º´æ½µ¼¶](https://blog.csdn.net/hcmony/article/details/80694560)
-*   [Ê¹ÓÃ»º´æµÄºÏÀíĞÔÎÊÌâ](http://blog.720ui.com/2016/redis_action_01_use_core/)
+*   [Redis æœ‰å“ªäº›ç±»å‹](https://blog.csdn.net/hcmony/article/details/80694560)
+*   [Redis å†…éƒ¨ç»“æ„](https://www.cnblogs.com/wykCN/p/4533231.html)
+*   [Redis å†…å­˜æ·˜æ±°æœºåˆ¶](https://blog.csdn.net/hcmony/article/details/80694560)
+*   [èŠèŠ Redis ä½¿ç”¨åœºæ™¯](https://blog.csdn.net/hcmony/article/details/80694560)
+*   [Redis æŒä¹…åŒ–æœºåˆ¶](http://blog.720ui.com/2016/redis_action_03_rdb_aof/)
+*   [Redis é›†ç¾¤æ–¹æ¡ˆä¸å®ç°](http://blog.720ui.com/2016/redis_action_04_cluster/)
+*   [Redis ä¸ºä»€ä¹ˆæ˜¯å•çº¿ç¨‹çš„](https://blog.csdn.net/hcmony/article/details/80694560)
+*   [ç¼“å­˜å´©æºƒ](https://blog.csdn.net/hcmony/article/details/80694560)
+*   [ç¼“å­˜é™çº§](https://blog.csdn.net/hcmony/article/details/80694560)
+*   [ä½¿ç”¨ç¼“å­˜çš„åˆç†æ€§é—®é¢˜](http://blog.720ui.com/2016/redis_action_01_use_core/)
 
-#### ÏûÏ¢¶ÓÁĞ
+#### æ¶ˆæ¯é˜Ÿåˆ—
 
-*   [ÏûÏ¢¶ÓÁĞµÄÊ¹ÓÃ³¡¾°](https://blog.csdn.net/seven__________7/article/details/70225830)
-*   [ÏûÏ¢µÄÖØ·¢²¹³¥½â¾öË¼Â·](https://blog.csdn.net/wangtaomtk/article/details/51531278)
-*   [ÏûÏ¢µÄÃİµÈĞÔ½â¾öË¼Â·£¨ÒÑ½â´ğ£¬´ı²¹³ä£©](https://www.jianshu.com/p/8b77d4583bab?utm_campaign)
-*   [ÏûÏ¢µÄ¶Ñ»ı½â¾öË¼Â·](https://docs.oracle.com/cd/E19148-01/820-0843/6nci9sed1/index.html)
-*   [×Ô¼ºÈçºÎÊµÏÖÏûÏ¢¶ÓÁĞ](https://www.cnblogs.com/yswenli/p/9029587.html)
-*   [ÈçºÎ±£Ö¤ÏûÏ¢µÄÓĞĞòĞÔ](https://yq.aliyun.com/articles/73672)
+*   [æ¶ˆæ¯é˜Ÿåˆ—çš„ä½¿ç”¨åœºæ™¯](https://blog.csdn.net/seven__________7/article/details/70225830)
+*   [æ¶ˆæ¯çš„é‡å‘è¡¥å¿è§£å†³æ€è·¯](https://blog.csdn.net/wangtaomtk/article/details/51531278)
+*   [æ¶ˆæ¯çš„å¹‚ç­‰æ€§è§£å†³æ€è·¯ï¼ˆå·²è§£ç­”ï¼Œå¾…è¡¥å……ï¼‰](https://www.jianshu.com/p/8b77d4583bab?utm_campaign)
+*   [æ¶ˆæ¯çš„å †ç§¯è§£å†³æ€è·¯](https://docs.oracle.com/cd/E19148-01/820-0843/6nci9sed1/index.html)
+*   [è‡ªå·±å¦‚ä½•å®ç°æ¶ˆæ¯é˜Ÿåˆ—](https://www.cnblogs.com/yswenli/p/9029587.html)
+*   [å¦‚ä½•ä¿è¯æ¶ˆæ¯çš„æœ‰åºæ€§](https://yq.aliyun.com/articles/73672)
 
-### ¿ò¼ÜÆª
+### æ¡†æ¶ç¯‡
 
 #### Spring
 
-*   [BeanFactory ºÍ ApplicationContext ÓĞÊ²Ã´Çø±ğ](https://blog.csdn.net/qq_36074233/article/details/76153039)
-*   [Spring IOC ÈçºÎÊµÏÖ](https://www.jianshu.com/p/5c781f264467?from=groupmessage)
-*   [Spring IOC ÈİÆ÷³õÊ¼»¯¹ı³Ì](https://www.cnblogs.com/chenjunjie12321/p/6124649.html)
-*   [Spring Bean µÄÉúÃüÖÜÆÚ](https://blog.csdn.net/a327369238/article/details/52193822)
-*   [ËµËµ Spring AOP](https://www.cnblogs.com/hongwz/p/5764917.html)
-*   [Spring AOP ÊµÏÖÔ­Àí](https://blog.csdn.net/moreevan/article/details/11977115/)
-*   [¶¯Ì¬´úÀí£¨cglib Óë JDK£©](https://blog.csdn.net/u013126379/article/details/52121096)
-*   [Spring ÊÂÎñÊµÏÖ·½Ê½](https://blog.csdn.net/liaohaojian/article/details/70139151)
-*   [Spring ÊÂÎñµ×²ãÔ­Àí](https://blog.csdn.net/u010853261/article/details/78118619)
-*   [ÈçºÎ×Ô¶¨Òå×¢½âÊµÏÖ¹¦ÄÜ](https://www.jb51.net/article/131472.htm)
-*   [Spring MVC ÔËĞĞÁ÷³Ì](https://blog.csdn.net/james_shu/article/details/54616120)
-*   [Spring MVC Æô¶¯Á÷³Ì](https://www.cnblogs.com/RunForLove/p/5688731.html)
-*   [Spring µÄµ¥ÀıÊµÏÖÔ­Àí](https://blog.csdn.net/cs408/article/details/48982085)
-*   [Spring ¿ò¼ÜÖĞÓÃµ½ÁËÄÄĞ©Éè¼ÆÄ£Ê½](https://www.cnblogs.com/jifeng/p/7398852.html)
-*   [Spring ÆäËû²úÆ·£¨Srping Boot¡¢Spring Cloud¡¢Spring Secuirity¡¢Spring Data¡¢Spring AMQP µÈ£©](https://www.jianshu.com/p/b3e4aaa83a7d)
+*   [BeanFactory å’Œ ApplicationContext æœ‰ä»€ä¹ˆåŒºåˆ«](https://blog.csdn.net/qq_36074233/article/details/76153039)
+*   [Spring IOC å¦‚ä½•å®ç°](https://www.jianshu.com/p/5c781f264467?from=groupmessage)
+*   [Spring IOC å®¹å™¨åˆå§‹åŒ–è¿‡ç¨‹](https://www.cnblogs.com/chenjunjie12321/p/6124649.html)
+*   [Spring Bean çš„ç”Ÿå‘½å‘¨æœŸ](https://blog.csdn.net/a327369238/article/details/52193822)
+*   [è¯´è¯´ Spring AOP](https://www.cnblogs.com/hongwz/p/5764917.html)
+*   [Spring AOP å®ç°åŸç†](https://blog.csdn.net/moreevan/article/details/11977115/)
+*   [åŠ¨æ€ä»£ç†ï¼ˆcglib ä¸ JDKï¼‰](https://blog.csdn.net/u013126379/article/details/52121096)
+*   [Spring äº‹åŠ¡å®ç°æ–¹å¼](https://blog.csdn.net/liaohaojian/article/details/70139151)
+*   [Spring äº‹åŠ¡åº•å±‚åŸç†](https://blog.csdn.net/u010853261/article/details/78118619)
+*   [å¦‚ä½•è‡ªå®šä¹‰æ³¨è§£å®ç°åŠŸèƒ½](https://www.jb51.net/article/131472.htm)
+*   [Spring MVC è¿è¡Œæµç¨‹](https://blog.csdn.net/james_shu/article/details/54616120)
+*   [Spring MVC å¯åŠ¨æµç¨‹](https://www.cnblogs.com/RunForLove/p/5688731.html)
+*   [Spring çš„å•ä¾‹å®ç°åŸç†](https://blog.csdn.net/cs408/article/details/48982085)
+*   [Spring æ¡†æ¶ä¸­ç”¨åˆ°äº†å“ªäº›è®¾è®¡æ¨¡å¼](https://www.cnblogs.com/jifeng/p/7398852.html)
+*   [Spring å…¶ä»–äº§å“ï¼ˆSrping Bootã€Spring Cloudã€Spring Secuirityã€Spring Dataã€Spring AMQP ç­‰ï¼‰](https://www.jianshu.com/p/b3e4aaa83a7d)
 
 #### Netty
 
-*   [ÎªÊ²Ã´Ñ¡Ôñ Netty](https://blog.csdn.net/a953713428/article/details/65629552)
-*   [ËµËµÒµÎñÖĞ£¬Netty µÄÊ¹ÓÃ³¡¾°](http://www.52im.net/thread-163-1-1.html)
-*   [Ô­ÉúµÄ NIO ÔÚ JDK 1.7 °æ±¾´æÔÚ epoll bug](https://www.cnblogs.com/JAYIT/p/8241634.html)
-*   [Ê²Ã´ÊÇTCP Õ³°ü/²ğ°ü£¬½â¾ö°ì·¨](https://blog.insanecoder.top/tcp-packet-splice-and-split-issue/)
-*   [Netty Ïß³ÌÄ£ĞÍ](https://blog.csdn.net/wangjinnan16/article/details/78377642)
-*   [ËµËµ Netty µÄÁã¿½±´](https://my.oschina.net/plucury/blog/192577)
-*   [Netty ÄÚ²¿Ö´ĞĞÁ÷³Ì](https://www.cnblogs.com/f1194361820/p/5656440.html)
-*   [Netty ÖØÁ¬ÊµÏÖ](http://www.importnew.com/25046.html)
+*   [ä¸ºä»€ä¹ˆé€‰æ‹© Netty](https://blog.csdn.net/a953713428/article/details/65629552)
+*   [è¯´è¯´ä¸šåŠ¡ä¸­ï¼ŒNetty çš„ä½¿ç”¨åœºæ™¯](http://www.52im.net/thread-163-1-1.html)
+*   [åŸç”Ÿçš„ NIO åœ¨ JDK 1.7 ç‰ˆæœ¬å­˜åœ¨ epoll bug](https://www.cnblogs.com/JAYIT/p/8241634.html)
+*   [ä»€ä¹ˆæ˜¯TCP ç²˜åŒ…/æ‹†åŒ…ï¼Œè§£å†³åŠæ³•](https://blog.insanecoder.top/tcp-packet-splice-and-split-issue/)
+*   [Netty çº¿ç¨‹æ¨¡å‹](https://blog.csdn.net/wangjinnan16/article/details/78377642)
+*   [è¯´è¯´ Netty çš„é›¶æ‹·è´](https://my.oschina.net/plucury/blog/192577)
+*   [Netty å†…éƒ¨æ‰§è¡Œæµç¨‹](https://www.cnblogs.com/f1194361820/p/5656440.html)
+*   [Netty é‡è¿å®ç°](http://www.importnew.com/25046.html)
 
-### Î¢·şÎñÆª
+### å¾®æœåŠ¡ç¯‡
 
-#### Î¢·şÎñ
+#### å¾®æœåŠ¡
 
-*   [Ç°ºó¶Ë·ÖÀëÊÇÈçºÎ×öµÄ](http://blog.720ui.com/2016/arch_web_server/)
-*   [ÈçºÎ½â¾ö¿çÓò](http://blog.720ui.com/2016/web_cross_domain/)
-*   [Î¢·şÎñÄÄĞ©¿ò¼Ü](https://www.sohu.com/a/201844693_100038984)
-*   [ÄãÔõÃ´Àí½â RPC ¿ò¼Ü](http://blog.jobbole.com/92290/)
-*   [ËµËµ RPC µÄÊµÏÖÔ­Àí](https://blog.csdn.net/top_code/article/details/54615853)
-*   [ËµËµ Dubbo µÄÊµÏÖÔ­Àí](https://blog.csdn.net/chao_19/article/details/51764150)
-*   [ÄãÔõÃ´Àí½â RESTful](https://www.cnblogs.com/binlin1987/p/6971808.html)
-*   [ËµËµÈçºÎÉè¼ÆÒ»¸öÁ¼ºÃµÄ API](https://www.jdon.com/48452)
-*   [ÈçºÎÀí½â RESTful API µÄÃİµÈĞÔ](https://blog.csdn.net/garfielder007/article/details/55684420)
-*   [ÈçºÎ±£Ö¤½Ó¿ÚµÄÃİµÈĞÔ](https://blog.csdn.net/jks456/article/details/71453053)
-*   [ËµËµ CAP ¶¨Àí¡¢ BASE ÀíÂÛ](https://www.jdon.com/37625)
-*   [ÔõÃ´¿¼ÂÇÊı¾İÒ»ÖÂĞÔÎÊÌâ](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency)
-*   [ËµËµ×îÖÕÒ»ÖÂĞÔµÄÊµÏÖ·½°¸](http://iamzhongyong.iteye.com/blog/2240891)
-*   [ÄãÔõÃ´¿´´ıÎ¢·şÎñ](https://blog.csdn.net/kde/article/details/51817622)
-*   [Î¢·şÎñÓë SOA µÄÇø±ğ](https://www.cnblogs.com/ynuo/p/5913955.html)
-*   [ÈçºÎ²ğ·Ö·şÎñ](https://blog.csdn.net/u012422829/article/details/68951579?utm_source=itdadao&utm_medium=referral)
-*   [Î¢·şÎñÈçºÎ½øĞĞÊı¾İ¿â¹ÜÀí](http://www.infoq.com/cn/news/2017/07/managing-data-in-microservices)
-*   [ÈçºÎÓ¦¶ÔÎ¢·şÎñµÄÁ´Ê½µ÷ÓÃÒì³£](https://segmentfault.com/a/1190000011578125)
-*   [¶ÔÓÚ¿ìËÙ×·×ÙÓë¶¨Î»ÎÊÌâ](http://www.infoq.com/cn/articles/how-to-realize-distributed-tracking/)
-*   [Î¢·şÎñµÄ°²È«](https://segmentfault.com/a/1190000005891501)
+*   [å‰åç«¯åˆ†ç¦»æ˜¯å¦‚ä½•åšçš„](http://blog.720ui.com/2016/arch_web_server/)
+*   [å¦‚ä½•è§£å†³è·¨åŸŸ](http://blog.720ui.com/2016/web_cross_domain/)
+*   [å¾®æœåŠ¡å“ªäº›æ¡†æ¶](https://www.sohu.com/a/201844693_100038984)
+*   [ä½ æ€ä¹ˆç†è§£ RPC æ¡†æ¶](http://blog.jobbole.com/92290/)
+*   [è¯´è¯´ RPC çš„å®ç°åŸç†](https://blog.csdn.net/top_code/article/details/54615853)
+*   [è¯´è¯´ Dubbo çš„å®ç°åŸç†](https://blog.csdn.net/chao_19/article/details/51764150)
+*   [ä½ æ€ä¹ˆç†è§£ RESTful](https://www.cnblogs.com/binlin1987/p/6971808.html)
+*   [è¯´è¯´å¦‚ä½•è®¾è®¡ä¸€ä¸ªè‰¯å¥½çš„ API](https://www.jdon.com/48452)
+*   [å¦‚ä½•ç†è§£ RESTful API çš„å¹‚ç­‰æ€§](https://blog.csdn.net/garfielder007/article/details/55684420)
+*   [å¦‚ä½•ä¿è¯æ¥å£çš„å¹‚ç­‰æ€§](https://blog.csdn.net/jks456/article/details/71453053)
+*   [è¯´è¯´ CAP å®šç†ã€ BASE ç†è®º](https://www.jdon.com/37625)
+*   [æ€ä¹ˆè€ƒè™‘æ•°æ®ä¸€è‡´æ€§é—®é¢˜](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency)
+*   [è¯´è¯´æœ€ç»ˆä¸€è‡´æ€§çš„å®ç°æ–¹æ¡ˆ](http://iamzhongyong.iteye.com/blog/2240891)
+*   [ä½ æ€ä¹ˆçœ‹å¾…å¾®æœåŠ¡](https://blog.csdn.net/kde/article/details/51817622)
+*   [å¾®æœåŠ¡ä¸ SOA çš„åŒºåˆ«](https://www.cnblogs.com/ynuo/p/5913955.html)
+*   [å¦‚ä½•æ‹†åˆ†æœåŠ¡](https://blog.csdn.net/u012422829/article/details/68951579?utm_source=itdadao&utm_medium=referral)
+*   [å¾®æœåŠ¡å¦‚ä½•è¿›è¡Œæ•°æ®åº“ç®¡ç†](http://www.infoq.com/cn/news/2017/07/managing-data-in-microservices)
+*   [å¦‚ä½•åº”å¯¹å¾®æœåŠ¡çš„é“¾å¼è°ƒç”¨å¼‚å¸¸](https://segmentfault.com/a/1190000011578125)
+*   [å¯¹äºå¿«é€Ÿè¿½è¸ªä¸å®šä½é—®é¢˜](http://www.infoq.com/cn/articles/how-to-realize-distributed-tracking/)
+*   [å¾®æœåŠ¡çš„å®‰å…¨](https://segmentfault.com/a/1190000005891501)
 
-#### ·Ö²¼Ê½
+#### åˆ†å¸ƒå¼
 
-*   [Ì¸Ì¸ÒµÎñÖĞÊ¹ÓÃ·Ö²¼Ê½µÄ³¡¾°](https://blog.csdn.net/jek123456/article/details/54666545)
-*   [Session ·Ö²¼Ê½·½°¸](https://blog.csdn.net/u010164936/article/details/56666285)
-*   [·Ö²¼Ê½ËøµÄ³¡¾°](https://www.cnblogs.com/yuyutianxia/p/7149363.html)
-*   [·Ö²¼ÊÇËøµÄÊµÏÖ·½°¸](https://www.cnblogs.com/yuyutianxia/p/7149363.html)
-*   [·Ö²¼Ê½ÊÂÎñ](https://blog.csdn.net/mine_song/article/details/64118963)
-*   [¼¯ÈºÓë¸ºÔØ¾ùºâµÄËã·¨ÓëÊµÏÖ](https://www.cnblogs.com/data2value/p/6107450.html)
-*   [ËµËµ·Ö¿âÓë·Ö±íÉè¼Æ](https://blog.csdn.net/winy_lm/article/details/50708493)
-*   [·Ö¿âÓë·Ö±í´øÀ´µÄ·Ö²¼Ê½À§¾³ÓëÓ¦¶ÔÖ®²ß](https://www.cnblogs.com/rjzheng/p/9041659.html)
+*   [è°ˆè°ˆä¸šåŠ¡ä¸­ä½¿ç”¨åˆ†å¸ƒå¼çš„åœºæ™¯](https://blog.csdn.net/jek123456/article/details/54666545)
+*   [Session åˆ†å¸ƒå¼æ–¹æ¡ˆ](https://blog.csdn.net/u010164936/article/details/56666285)
+*   [åˆ†å¸ƒå¼é”çš„åœºæ™¯](https://www.cnblogs.com/yuyutianxia/p/7149363.html)
+*   [åˆ†å¸ƒæ˜¯é”çš„å®ç°æ–¹æ¡ˆ](https://www.cnblogs.com/yuyutianxia/p/7149363.html)
+*   [åˆ†å¸ƒå¼äº‹åŠ¡](https://blog.csdn.net/mine_song/article/details/64118963)
+*   [é›†ç¾¤ä¸è´Ÿè½½å‡è¡¡çš„ç®—æ³•ä¸å®ç°](https://www.cnblogs.com/data2value/p/6107450.html)
+*   [è¯´è¯´åˆ†åº“ä¸åˆ†è¡¨è®¾è®¡](https://blog.csdn.net/winy_lm/article/details/50708493)
+*   [åˆ†åº“ä¸åˆ†è¡¨å¸¦æ¥çš„åˆ†å¸ƒå¼å›°å¢ƒä¸åº”å¯¹ä¹‹ç­–](https://www.cnblogs.com/rjzheng/p/9041659.html)
 
-#### °²È«ÎÊÌâ
+#### å®‰å…¨é—®é¢˜
 
-*   [°²È«ÒªËØÓë STRIDE ÍşĞ²](http://blog.720ui.com/2017/security_stride/)
-*   [·À·¶³£¼ûµÄ Web ¹¥»÷](https://blog.csdn.net/wen_special/article/details/80461394)
-*   [·şÎñ¶ËÍ¨ĞÅ°²È«¹¥·À](http://blog.720ui.com/2016/security_data_transmission/)
-*   [HTTPS Ô­ÀíÆÊÎö](https://www.cnblogs.com/digdeep/p/4832885.html)
-*   [HTTPS ½µ¼¶¹¥»÷](http://blog.720ui.com/2016/security_https_tls/)
-*   [ÊÚÈ¨ÓëÈÏÖ¤](http://blog.720ui.com/2017/msa_oauth2/)
-*   [»ùÓÚ½ÇÉ«µÄ·ÃÎÊ¿ØÖÆ](http://blog.720ui.com/2017/msa_rbac/)
-*   [»ùÓÚÊı¾İµÄ·ÃÎÊ¿ØÖÆ](http://blog.720ui.com/2017/msa_rbac_data/)
+*   [å®‰å…¨è¦ç´ ä¸ STRIDE å¨èƒ](http://blog.720ui.com/2017/security_stride/)
+*   [é˜²èŒƒå¸¸è§çš„ Web æ”»å‡»](https://blog.csdn.net/wen_special/article/details/80461394)
+*   [æœåŠ¡ç«¯é€šä¿¡å®‰å…¨æ”»é˜²](http://blog.720ui.com/2016/security_data_transmission/)
+*   [HTTPS åŸç†å‰–æ](https://www.cnblogs.com/digdeep/p/4832885.html)
+*   [HTTPS é™çº§æ”»å‡»](http://blog.720ui.com/2016/security_https_tls/)
+*   [æˆæƒä¸è®¤è¯](http://blog.720ui.com/2017/msa_oauth2/)
+*   [åŸºäºè§’è‰²çš„è®¿é—®æ§åˆ¶](http://blog.720ui.com/2017/msa_rbac/)
+*   [åŸºäºæ•°æ®çš„è®¿é—®æ§åˆ¶](http://blog.720ui.com/2017/msa_rbac_data/)
 
-#### ĞÔÄÜÓÅ»¯
+#### æ€§èƒ½ä¼˜åŒ–
 
-*   [ĞÔÄÜÖ¸±êÓĞÄÄĞ©](https://www.cnblogs.com/Tpf386/p/7879446.html)
-*   [ÈçºÎ·¢ÏÖĞÔÄÜÆ¿¾±](http://www.cnblogs.com/zhangyublogs/p/4965870.html)
-*   [ĞÔÄÜµ÷ÓÅµÄ³£¼ûÊÖ¶Î](https://blog.csdn.net/fanyun_01/article/details/79942408)
-*   [ËµËµÄãÔÚÏîÄ¿ÖĞÈçºÎ½øĞĞĞÔÄÜµ÷ÓÅ](http://blog.51cto.com/caotian/2074652)
+*   [æ€§èƒ½æŒ‡æ ‡æœ‰å“ªäº›](https://www.cnblogs.com/Tpf386/p/7879446.html)
+*   [å¦‚ä½•å‘ç°æ€§èƒ½ç“¶é¢ˆ](http://www.cnblogs.com/zhangyublogs/p/4965870.html)
+*   [æ€§èƒ½è°ƒä¼˜çš„å¸¸è§æ‰‹æ®µ](https://blog.csdn.net/fanyun_01/article/details/79942408)
+*   [è¯´è¯´ä½ åœ¨é¡¹ç›®ä¸­å¦‚ä½•è¿›è¡Œæ€§èƒ½è°ƒä¼˜](http://blog.51cto.com/caotian/2074652)
 
-### ¹¤³ÌÆª
+### å·¥ç¨‹ç¯‡
 
-#### ĞèÇó·ÖÎö
+#### éœ€æ±‚åˆ†æ
 
-*   [ÄãÈçºÎ¶ÔĞèÇóÔ­ĞÍ½øĞĞÀí½âºÍ²ğ·Ö]()
-*   [ËµËµÄã¶Ô¹¦ÄÜĞÔĞèÇóµÄÀí½â]()
-*   [ËµËµÄã¶Ô·Ç¹¦ÄÜĞÔĞèÇóµÄÀí½â]()
-*   [ÄãÕë¶Ô²úÆ·Ìá³öÄÄĞ©½»»¥ºÍ¸Ä½øÒâ¼û]()
-*   [ÄãÈçºÎÀí½âÓÃ»§Í´µã]()
+*   [ä½ å¦‚ä½•å¯¹éœ€æ±‚åŸå‹è¿›è¡Œç†è§£å’Œæ‹†åˆ†]()
+*   [è¯´è¯´ä½ å¯¹åŠŸèƒ½æ€§éœ€æ±‚çš„ç†è§£]()
+*   [è¯´è¯´ä½ å¯¹éåŠŸèƒ½æ€§éœ€æ±‚çš„ç†è§£]()
+*   [ä½ é’ˆå¯¹äº§å“æå‡ºå“ªäº›äº¤äº’å’Œæ”¹è¿›æ„è§]()
+*   [ä½ å¦‚ä½•ç†è§£ç”¨æˆ·ç—›ç‚¹]()
 
-#### Éè¼ÆÄÜÁ¦
+#### è®¾è®¡èƒ½åŠ›
 
-*   [ËµËµÄãÔÚÏîÄ¿ÖĞÊ¹ÓÃ¹ıµÄ UML Í¼]()
-*   [ÄãÈçºÎ¿¼ÂÇ×é¼ş»¯]()
-*   [ÄãÈçºÎ¿¼ÂÇ·şÎñ»¯]()
-*   [ÄãÈçºÎ½øĞĞÁìÓò½¨Ä£]()
-*   [ÄãÈçºÎ»®·ÖÁìÓò±ß½ç]()
-*   [ËµËµÄãÏîÄ¿ÖĞµÄÁìÓò½¨Ä£]()
-*   [ËµËµ¸ÅÒªÉè¼Æ]()
+*   [è¯´è¯´ä½ åœ¨é¡¹ç›®ä¸­ä½¿ç”¨è¿‡çš„ UML å›¾]()
+*   [ä½ å¦‚ä½•è€ƒè™‘ç»„ä»¶åŒ–]()
+*   [ä½ å¦‚ä½•è€ƒè™‘æœåŠ¡åŒ–]()
+*   [ä½ å¦‚ä½•è¿›è¡Œé¢†åŸŸå»ºæ¨¡]()
+*   [ä½ å¦‚ä½•åˆ’åˆ†é¢†åŸŸè¾¹ç•Œ]()
+*   [è¯´è¯´ä½ é¡¹ç›®ä¸­çš„é¢†åŸŸå»ºæ¨¡]()
+*   [è¯´è¯´æ¦‚è¦è®¾è®¡]()
 
-#### Éè¼ÆÄ£Ê½
+#### è®¾è®¡æ¨¡å¼
 
-*   [ÄãÏîÄ¿ÖĞÓĞÊ¹ÓÃÄÄĞ©Éè¼ÆÄ£Ê½]()
-*   [ËµËµ³£ÓÃ¿ªÔ´¿ò¼ÜÖĞÉè¼ÆÄ£Ê½Ê¹ÓÃ·ÖÎö]()
-*   [ËµËµÄã¶ÔÉè¼ÆÔ­ÔòµÄÀí½â]()
-*   [23ÖÖÉè¼ÆÄ£Ê½µÄÉè¼ÆÀíÄî]()
-*   [Éè¼ÆÄ£Ê½Ö®¼äµÄÒìÍ¬£¬ÀıÈç²ßÂÔÄ£Ê½Óë×´Ì¬Ä£Ê½µÄÇø±ğ]()
-*   [Éè¼ÆÄ£Ê½Ö®¼äµÄ½áºÏ£¬ÀıÈç²ßÂÔÄ£Ê½+¼òµ¥¹¤³§Ä£Ê½µÄÊµ¼ù]()
-*   [Éè¼ÆÄ£Ê½µÄĞÔÄÜ£¬ÀıÈçµ¥ÀıÄ£Ê½ÄÄÖÖĞÔÄÜ¸üºÃ¡£]()
+*   [ä½ é¡¹ç›®ä¸­æœ‰ä½¿ç”¨å“ªäº›è®¾è®¡æ¨¡å¼]()
+*   [è¯´è¯´å¸¸ç”¨å¼€æºæ¡†æ¶ä¸­è®¾è®¡æ¨¡å¼ä½¿ç”¨åˆ†æ]()
+*   [è¯´è¯´ä½ å¯¹è®¾è®¡åŸåˆ™çš„ç†è§£]()
+*   [23ç§è®¾è®¡æ¨¡å¼çš„è®¾è®¡ç†å¿µ]()
+*   [è®¾è®¡æ¨¡å¼ä¹‹é—´çš„å¼‚åŒï¼Œä¾‹å¦‚ç­–ç•¥æ¨¡å¼ä¸çŠ¶æ€æ¨¡å¼çš„åŒºåˆ«]()
+*   [è®¾è®¡æ¨¡å¼ä¹‹é—´çš„ç»“åˆï¼Œä¾‹å¦‚ç­–ç•¥æ¨¡å¼+ç®€å•å·¥å‚æ¨¡å¼çš„å®è·µ]()
+*   [è®¾è®¡æ¨¡å¼çš„æ€§èƒ½ï¼Œä¾‹å¦‚å•ä¾‹æ¨¡å¼å“ªç§æ€§èƒ½æ›´å¥½ã€‚]()
 
-#### ÒµÎñ¹¤³Ì
+#### ä¸šåŠ¡å·¥ç¨‹
 
-*   [ÄãÏµÍ³ÖĞµÄÇ°ºó¶Ë·ÖÀëÊÇÈçºÎ×öµÄ]()
-*   [ËµËµÄãµÄ¿ª·¢Á÷³Ì]()
-*   [ÄãºÍÍÅ¶ÓÊÇÈçºÎ¹µÍ¨µÄ]()
-*   [ÄãÈçºÎ½øĞĞ´úÂëÆÀÉó]()
-*   [ËµËµÄã¶Ô¼¼ÊõÓëÒµÎñµÄÀí½â]()
-*   [ËµËµÄãÔÚÏîÄ¿ÖĞ¾­³£Óöµ½µÄ Exception]()
-*   [ËµËµÄãÔÚÏîÄ¿ÖĞÓöµ½¸Ğ¾õ×îÄÑBug£¬ÔõÃ´½â¾öµÄ]()
-*   [ËµËµÄãÔÚÏîÄ¿ÖĞÓöµ½Ó¡Ïó×îÉîÀ§ÄÑ£¬ÔõÃ´½â¾öµÄ]()
-*   [Äã¾õµÃÄãÃÇÏîÄ¿»¹ÓĞÄÄĞ©²»×ãµÄµØ·½]()
-*   [ÄãÊÇ·ñÓöµ½¹ı CPU 100% £¬ÈçºÎÅÅ²éÓë½â¾ö]()
-*   [ÄãÊÇ·ñÓöµ½¹ı ÄÚ´æ OOM £¬ÈçºÎÅÅ²éÓë½â¾ö]()
-*   [ËµËµÄã¶ÔÃô½İ¿ª·¢µÄÊµ¼ù]()
-*   [ËµËµÄã¶Ô¿ª·¢ÔËÎ¬µÄÊµ¼ù]()
-*   [½éÉÜÏÂ¹¤×÷ÖĞµÄÒ»¸ö¶Ô×Ô¼º×îÓĞ¼ÛÖµµÄÏîÄ¿£¬ÒÔ¼°ÔÚÕâ¸ö¹ı³ÌÖĞµÄ½ÇÉ«]()
+*   [ä½ ç³»ç»Ÿä¸­çš„å‰åç«¯åˆ†ç¦»æ˜¯å¦‚ä½•åšçš„]()
+*   [è¯´è¯´ä½ çš„å¼€å‘æµç¨‹]()
+*   [ä½ å’Œå›¢é˜Ÿæ˜¯å¦‚ä½•æ²Ÿé€šçš„]()
+*   [ä½ å¦‚ä½•è¿›è¡Œä»£ç è¯„å®¡]()
+*   [è¯´è¯´ä½ å¯¹æŠ€æœ¯ä¸ä¸šåŠ¡çš„ç†è§£]()
+*   [è¯´è¯´ä½ åœ¨é¡¹ç›®ä¸­ç»å¸¸é‡åˆ°çš„ Exception]()
+*   [è¯´è¯´ä½ åœ¨é¡¹ç›®ä¸­é‡åˆ°æ„Ÿè§‰æœ€éš¾Bugï¼Œæ€ä¹ˆè§£å†³çš„]()
+*   [è¯´è¯´ä½ åœ¨é¡¹ç›®ä¸­é‡åˆ°å°è±¡æœ€æ·±å›°éš¾ï¼Œæ€ä¹ˆè§£å†³çš„]()
+*   [ä½ è§‰å¾—ä½ ä»¬é¡¹ç›®è¿˜æœ‰å“ªäº›ä¸è¶³çš„åœ°æ–¹]()
+*   [ä½ æ˜¯å¦é‡åˆ°è¿‡ CPU 100% ï¼Œå¦‚ä½•æ’æŸ¥ä¸è§£å†³]()
+*   [ä½ æ˜¯å¦é‡åˆ°è¿‡ å†…å­˜ OOM ï¼Œå¦‚ä½•æ’æŸ¥ä¸è§£å†³]()
+*   [è¯´è¯´ä½ å¯¹æ•æ·å¼€å‘çš„å®è·µ]()
+*   [è¯´è¯´ä½ å¯¹å¼€å‘è¿ç»´çš„å®è·µ]()
+*   [ä»‹ç»ä¸‹å·¥ä½œä¸­çš„ä¸€ä¸ªå¯¹è‡ªå·±æœ€æœ‰ä»·å€¼çš„é¡¹ç›®ï¼Œä»¥åŠåœ¨è¿™ä¸ªè¿‡ç¨‹ä¸­çš„è§’è‰²]()
 
-#### ÈíÊµÁ¦
+#### è½¯å®åŠ›
 
-*   [ËµËµÄãµÄÁÁµã]()
-*   [ËµËµÄã×î½üÔÚ¿´Ê²Ã´Êé]()
-*   [ËµËµÄã¾õµÃ×îÓĞÒâÒåµÄ¼¼ÊõÊé¼®]()
-*   [ËµËµ¸öÈË·¢Õ¹·½Ïò·½ÃæµÄË¼¿¼]()
-*   [ËµËµÄãÈÏÎªµÄ·şÎñ¶Ë¿ª·¢¹¤³ÌÊ¦Ó¦¸Ã¾ß±¸ÄÄĞ©ÄÜÁ¦]()
-*   [ËµËµÄãÈÏÎªµÄ¼Ü¹¹Ê¦ÊÇÊ²Ã´ÑùµÄ£¬¼Ü¹¹Ê¦Ö÷Òª×öÊ²Ã´]()
-*   [ËµËµÄãËùÀí½âµÄ¼¼Êõ×¨¼Ò]()
+*   [è¯´è¯´ä½ çš„äº®ç‚¹]()
+*   [è¯´è¯´ä½ æœ€è¿‘åœ¨çœ‹ä»€ä¹ˆä¹¦]()
+*   [è¯´è¯´ä½ è§‰å¾—æœ€æœ‰æ„ä¹‰çš„æŠ€æœ¯ä¹¦ç±]()
+*   [è¯´è¯´ä¸ªäººå‘å±•æ–¹å‘æ–¹é¢çš„æ€è€ƒ]()
+*   [è¯´è¯´ä½ è®¤ä¸ºçš„æœåŠ¡ç«¯å¼€å‘å·¥ç¨‹å¸ˆåº”è¯¥å…·å¤‡å“ªäº›èƒ½åŠ›]()
+*   [è¯´è¯´ä½ è®¤ä¸ºçš„æ¶æ„å¸ˆæ˜¯ä»€ä¹ˆæ ·çš„ï¼Œæ¶æ„å¸ˆä¸»è¦åšä»€ä¹ˆ]()
+*   [è¯´è¯´ä½ æ‰€ç†è§£çš„æŠ€æœ¯ä¸“å®¶]()
 
-### HR Æª
+### HR ç¯‡
 
-*   [ÄãÎªÊ²Ã´Àë¿ªÖ®Ç°µÄ¹«Ë¾]()
-*   [ÄãÎªÊ²Ã´Òª½øÎÒÃÇ¹«Ë¾]()
-*   [ËµËµÖ°Òµ¹æ»®]()
-*   [ÄãÈçºÎ¿´´ı¼Ó°àÎÊÌâ]()
-*   [Ì¸Ò»Ì¸ÄãµÄÒ»´ÎÊ§°Ü¾­Àú]()
-*   [Äã¾õµÃÄã×î´óµÄÓÅµãÊÇÊ²Ã´]()
-*   [Äã¾õµÃÄã×î´óµÄÈ±µãÊÇÊ²Ã´]()
-*   [ÄãÔÚ¹¤×÷Ö®Óà×öÊ²Ã´ÊÂÇé]()
-*   [ÄãÎªÊ²Ã´ÈÏÎªÄãÊÊºÏÕâ¸öÖ°Î»]()
-*   [Äã¾õµÃ×Ô¼ºÄÇ·½ÃæÄÜÁ¦×î¼±ĞèÌá¸ß]()
-*   [ÄãÀ´ÎÒÃÇ¹«Ë¾×îÏ£ÍûµÃµ½Ê²Ã´]()
-*   [ÄãÏ£Íû´ÓÕâ·İ¹¤×÷ÖĞ»ñµÃÊ²Ã´]()
-*   [Äã¶ÔÏÖÔÚÓ¦Æ¸µÄÖ°Î»ÓĞÊ²Ã´ÁË½â]()
-*   [Äú»¹ÓĞÊ²Ã´ÏëÎÊµÄ]()
-*   [ÄãÔõÃ´¿´´ı×Ô¼ºµÄÖ°ÑÄ]()
-*   [Ì¸Ì¸ÄãµÄ¼ÒÍ¥Çé¿ö]()
-*   [ÄãÓĞÊ²Ã´ÒµÓà°®ºÃ]()
-*   [Äã¼Æ»®ÔÚ¹«Ë¾¹¤×÷¶à¾Ã]()
+*   [ä½ ä¸ºä»€ä¹ˆç¦»å¼€ä¹‹å‰çš„å…¬å¸]()
+*   [ä½ ä¸ºä»€ä¹ˆè¦è¿›æˆ‘ä»¬å…¬å¸]()
+*   [è¯´è¯´èŒä¸šè§„åˆ’]()
+*   [ä½ å¦‚ä½•çœ‹å¾…åŠ ç­é—®é¢˜]()
+*   [è°ˆä¸€è°ˆä½ çš„ä¸€æ¬¡å¤±è´¥ç»å†]()
+*   [ä½ è§‰å¾—ä½ æœ€å¤§çš„ä¼˜ç‚¹æ˜¯ä»€ä¹ˆ]()
+*   [ä½ è§‰å¾—ä½ æœ€å¤§çš„ç¼ºç‚¹æ˜¯ä»€ä¹ˆ]()
+*   [ä½ åœ¨å·¥ä½œä¹‹ä½™åšä»€ä¹ˆäº‹æƒ…]()
+*   [ä½ ä¸ºä»€ä¹ˆè®¤ä¸ºä½ é€‚åˆè¿™ä¸ªèŒä½]()
+*   [ä½ è§‰å¾—è‡ªå·±é‚£æ–¹é¢èƒ½åŠ›æœ€æ€¥éœ€æé«˜]()
+*   [ä½ æ¥æˆ‘ä»¬å…¬å¸æœ€å¸Œæœ›å¾—åˆ°ä»€ä¹ˆ]()
+*   [ä½ å¸Œæœ›ä»è¿™ä»½å·¥ä½œä¸­è·å¾—ä»€ä¹ˆ]()
+*   [ä½ å¯¹ç°åœ¨åº”è˜çš„èŒä½æœ‰ä»€ä¹ˆäº†è§£]()
+*   [æ‚¨è¿˜æœ‰ä»€ä¹ˆæƒ³é—®çš„]()
+*   [ä½ æ€ä¹ˆçœ‹å¾…è‡ªå·±çš„èŒæ¶¯]()
+*   [è°ˆè°ˆä½ çš„å®¶åº­æƒ…å†µ]()
+*   [ä½ æœ‰ä»€ä¹ˆä¸šä½™çˆ±å¥½]()
+*   [ä½ è®¡åˆ’åœ¨å…¬å¸å·¥ä½œå¤šä¹…]()
 </div>
 </body>
 </html>
