@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>JavaMaster</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -27,7 +28,9 @@
 *   [JDBC 流程](https://www.cnblogs.com/lightandtruth/p/9473862.html)
 *   [MVC 设计思想](https://blog.csdn.net/daijin888888/article/details/51169156)
 *   [equals 与 == 的区别](https://blog.csdn.net/g_66_hero/article/details/71081315)
-*   [JAVA锁有哪些种类，以及区别](https://www.cnblogs.com/lxmyhappy/p/7380073.html)
+*   [JAVA 锁有哪些种类，以及区别](https://www.cnblogs.com/lxmyhappy/p/7380073.html)
+*   [Java 对象的生命周期](https://blog.csdn.net/moneyshi/article/details/53033578)
+*   [JVM](https://blog.csdn.net/hsk256/article/details/49104955)
 
 #### 集合
 
@@ -45,7 +48,7 @@
 #### 线程
 
 *   [创建线程的方式及实现](https://www.cnblogs.com/wxw7blog/p/7727510.html)
-*   [sleep() 、join（）、yield（）有什么区别](https://blog.csdn.net/u011296485/article/details/77914205)
+*   [sleep() 、join()、yield()有什么区别](https://blog.csdn.net/u011296485/article/details/77914205)
 *   [说说 CountDownLatch 原理](https://www.jianshu.com/p/7c7a5df5bda6?ref=myread)
 *   [说说 CyclicBarrier 原理](https://www.jianshu.com/p/060761df128b)
 *   [说说 Semaphore 原理](https://www.jianshu.com/p/060761df128b)
@@ -134,6 +137,7 @@
 *   [如何自定义注解实现功能](https://www.jb51.net/article/131472.htm)
 *   [Spring MVC 运行流程](https://blog.csdn.net/james_shu/article/details/54616120)
 *   [Spring MVC 启动流程](https://www.cnblogs.com/RunForLove/p/5688731.html)
+*   [Spring MVC 和 Struts 的区别](https://blog.csdn.net/generalyy0/article/details/7003974)
 *   [Spring 的单例实现原理](https://blog.csdn.net/cs408/article/details/48982085)
 *   [Spring 框架中用到了哪些设计模式](https://www.cnblogs.com/jifeng/p/7398852.html)
 *   [Spring 其他产品（Srping Boot、Spring Cloud、Spring Secuirity、Spring Data、Spring AMQP 等）](https://www.jianshu.com/p/b3e4aaa83a7d)
