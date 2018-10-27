@@ -1,23 +1,23 @@
 ### 介绍
 
-* [请你介绍下所做的项目](https://mp.weixin.qq.com/s/brSm7ZrV53U6qZPIsUxQdQ?)
+* [请你介绍下所做的项目](https://mp.weixin.qq.com/s/brSm7ZrV53U6qZPIsUxQdQ?)  
     周期、技术、功能、整体架构、承担角色、优缺点、困难及成长。
 
 ### Java基础
 
 #### 基础
 
-* [面向对象特征](https://blog.csdn.net/lyg_come_on/article/details/52781884)
+* [面向对象特征](https://blog.csdn.net/lyg_come_on/article/details/52781884)  
     封装、继承和多态。
-* [final, finally, finalize的区别](https://blog.csdn.net/cyl101816/article/details/67640843)
-    final是关键字。被final修饰的类，就意味着不能再派生出新的子类，不能作为父类而被子类继承。
-    finally是关键字。在异常处理时提供finally块来执行任何清除操作。
-    finalize()是方法。Object类的finalize()在垃圾收集器将对象从内存中清除出去之前做必要的清理工作。
-* [int 和 Integer 有什么区别](https://blog.csdn.net/login_sonata/article/details/71001851)
-    int是基本数据类型。
-    Integer是int的包装类型，是对象。
-    基本数据类型：boolean，char，byte，short，int，long，float，double。
-    包装类型：Boolean，Character，Byte，Short，Integer，Long，Float，Double。
+* [final, finally, finalize的区别](https://blog.csdn.net/cyl101816/article/details/67640843)  
+    final是关键字。被final修饰的类，就意味着不能再派生出新的子类，不能作为父类而被子类继承。  
+    finally是关键字。在异常处理时提供finally块来执行任何清除操作。  
+    finalize()是方法。Object类的finalize()在垃圾收集器将对象从内存中清除出去之前做必要的清理工作。  
+* [int 和 Integer 有什么区别](https://blog.csdn.net/login_sonata/article/details/71001851)  
+    int是基本数据类型。  
+    Integer是int的包装类型，是对象。  
+    基本数据类型：boolean，char，byte，short，int，long，float，double。  
+    包装类型：Boolean，Character，Byte，Short，Integer，Long，Float，Double。  
 * [重载和重写的区别](https://blog.csdn.net/u010697681/article/details/79414112#_73)
     重写（Override）是指子类对父类方法的一种重写，只能比父类抛出更少的异常，访问权限不能比父类的小。被重写的方法不能是 private的，否则只是在子类中重新定义了一个方法；
     重载（Overload）表示同一个类中可以有多个名称相同的方法，但这些方法的参数列表各不相同。函数的返回值不同不可以构成重载。
