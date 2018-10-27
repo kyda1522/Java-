@@ -8,6 +8,7 @@
 
 * [面向对象特征](https://blog.csdn.net/lyg_come_on/article/details/52781884)  
         封装、继承和多态。  
+        
 * [final, finally, finalize的区别](https://blog.csdn.net/cyl101816/article/details/67640843)  
         final是关键字。被final修饰的类，就意味着不能再派生出新的子类，不能作为父类而被子类继承。  
         finally是关键字。在异常处理时提供finally块来执行任何清除操作。  
