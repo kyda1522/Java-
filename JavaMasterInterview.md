@@ -636,6 +636,11 @@
     5、客户端用随机数解密并计算握手消息的HASH，如果与服务端发来的HASH一致，此时握手过程结束，之后所有的通信数据将由之前浏览器生成的随机密码并利用对称加密算法进行加密  
 * [HTTPS 降级攻击](http://blog.720ui.com/2016/security_https_tls/)  
     禁用 SSL 3.0 加密协议，防止TLS 1.2 或者 TLS 1.1 或者 TLS 1.0降级到 SSL 3.0 加密协议。  
+* [HTTP2.0 与 HTTP1.1 区别](https://blog.csdn.net/sjhuangx/article/details/52299726)  
+    二进制格式  
+    多路复用  
+    报头压缩  
+    响应主动推送到客户端缓存  
 * [授权与认证](http://blog.720ui.com/2017/msa_oauth2/)  
 * [基于角色的访问控制](http://blog.720ui.com/2017/msa_rbac/)  
 * [基于数据的访问控制](http://blog.720ui.com/2017/msa_rbac_data/)  

@@ -191,6 +191,7 @@
 * [服务端通信安全攻防](http://blog.720ui.com/2016/security_data_transmission/)
 * [HTTPS 原理剖析](https://www.cnblogs.com/digdeep/p/4832885.html)
 * [HTTPS 降级攻击](http://blog.720ui.com/2016/security_https_tls/)
+* [HTTP2.0 与 HTTP1.1 区别](https://blog.csdn.net/sjhuangx/article/details/52299726)  
 * [授权与认证](http://blog.720ui.com/2017/msa_oauth2/)
 * [基于角色的访问控制](http://blog.720ui.com/2017/msa_rbac/)
 * [基于数据的访问控制](http://blog.720ui.com/2017/msa_rbac_data/)
