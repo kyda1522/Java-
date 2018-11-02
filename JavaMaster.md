@@ -21,8 +21,16 @@
 * [NIO和IO的区别](https://www.jb51.net/article/50621.htm)  
 * [JAVA 锁有哪些种类，以及区别](https://www.cnblogs.com/lxmyhappy/p/7380073.html)
 * [Java 对象的生命周期](https://blog.csdn.net/moneyshi/article/details/53033578)
-* [JVM](https://blog.csdn.net/hsk256/article/details/49104955)
+#### JVM  
+* [JVM内存划分](https://blog.csdn.net/hsk256/article/details/49104955)  
 
+* [GC算法](https://blog.csdn.net/hsk256/article/details/49104955)  
+* [垃圾收集的方法](https://blog.csdn.net/hsk256/article/details/49104955)  
+* [内存模型](https://blog.csdn.net/hsk256/article/details/49104955)  
+* [类加载过程](https://blog.csdn.net/hsk256/article/details/49104955)  
+* [双亲委派](https://blog.csdn.net/hsk256/article/details/49104955)  
+* [类加载器有哪些？](https://blog.csdn.net/hsk256/article/details/49104955)  
+* [内存分配与回收策率以及Minor GC和Major GC](https://blog.csdn.net/hsk256/article/details/49104955)  
 #### 集合
 
 * [List 和 Set 区别](https://www.cnblogs.com/IvesHe/p/6108933.html)
@@ -178,10 +186,11 @@
 * [谈谈业务中使用分布式的场景](https://blog.csdn.net/jek123456/article/details/54666545)
 * [Session 分布式方案](https://blog.csdn.net/u010164936/article/details/56666285)
 * [分布式锁的场景](https://www.cnblogs.com/yuyutianxia/p/7149363.html)
-* [分布是锁的实现方案](https://www.cnblogs.com/yuyutianxia/p/7149363.html)
+* [分布式锁的实现方案](https://www.cnblogs.com/yuyutianxia/p/7149363.html)  
 * [分布式事务](https://blog.csdn.net/mine_song/article/details/64118963)
 * [集群与负载均衡的算法与实现](https://www.cnblogs.com/data2value/p/6107450.html)
 * [CDN](https://help.aliyun.com/document_detail/27101.html?spm=a2c4g.11186623.6.542.17262a14QEcvN2)
+* [Dubbo](https://blog.csdn.net/moakun/article/details/82919804)  
 * [Hadoop](https://blog.csdn.net/qq_26437925/article/details/78467216)  
 
 #### 安全问题
