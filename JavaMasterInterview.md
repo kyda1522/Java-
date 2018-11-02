@@ -451,6 +451,7 @@
     3、商品搜索 通过商品的关键字去数据源中查找符合条件的商品  
 * [行列转换](https://www.cnblogs.com/johden2/p/5692765.html)  
 * [left join on 后 and 和 where 的区别](https://www.cnblogs.com/johden2/p/5692765.html)  
+* [数据库去重保留ID最小值](https://blog.csdn.net/Bear_Rider/article/details/79907479)  
 
 #### 缓存使用  
   
@@ -595,8 +596,8 @@
     客户端Cookie加密  
     粘性Session  
     服务器Session复制  
-    Session共享(缓存)
-    Session持久化到数据库
+    Session共享(缓存)  
+    Session持久化到数据库  
 * [分布式锁的场景](https://www.cnblogs.com/yuyutianxia/p/7149363.html)  
     交易系统的金额修改，同一时间只能又一个人操作，比如秒杀场景，同一时间只能一个用户抢到，比如火车站抢票等  
 * [分布式锁的实现方案](https://www.cnblogs.com/yuyutianxia/p/7149363.html)  

@@ -123,6 +123,7 @@
 * [聊聊 ElasticSearch 使用场景](https://blog.csdn.net/king866/article/details/53557250)
 * [行列转换](https://www.cnblogs.com/johden2/p/5692765.html)  
 * [left join on 后 and 和 where 的区别](https://www.cnblogs.com/johden2/p/5692765.html)  
+* [数据库去重保留ID最小值](https://blog.csdn.net/Bear_Rider/article/details/79907479)  
 
 #### 缓存使用
 

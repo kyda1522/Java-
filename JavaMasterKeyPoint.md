@@ -398,7 +398,7 @@
     普通单例不能被继承，单例注册表，HashMap对象  
 * [Spring 框架中用到了哪些设计模式](https://www.cnblogs.com/jifeng/p/7398852.html)  
 * [Spring 其他产品（Srping Boot、Spring Cloud、Spring Secuirity、Spring Data、Spring AMQP 等）](https://www.jianshu.com/p/b3e4aaa83a7d)  
-
+  
 ### 核心篇  
   
 #### 数据存储  
@@ -521,6 +521,7 @@
     3、商品搜索 通过商品的关键字去数据源中查找符合条件的商品  
 * [行列转换](https://www.cnblogs.com/johden2/p/5692765.html)  
 * [left join on 后 and 和 where 的区别](https://www.cnblogs.com/johden2/p/5692765.html)  
+* [数据库去重保留ID最小值](https://blog.csdn.net/Bear_Rider/article/details/79907479)  
 
 #### 缓存使用  
   
@@ -547,6 +548,7 @@
     6、volatile-ttl：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，有更早过期时间的key优先移除。不推荐  
 * [聊聊 Redis 使用场景](https://blog.csdn.net/hcmony/article/details/80694560)  
     缓存热数据  
+    Session共享  
     分布式锁  
     最终一致性  
     
@@ -604,7 +606,7 @@
 * [说说 Netty 的零拷贝](https://my.oschina.net/plucury/blog/192577)  
 * [Netty 内部执行流程](https://www.cnblogs.com/f1194361820/p/5656440.html)  
 * [Netty 重连实现](http://www.importnew.com/25046.html)  
-
+  
 #### 微服务  
   
 * [前后端分离是如何做的](http://blog.720ui.com/2016/arch_web_server/)  
@@ -664,8 +666,8 @@
     客户端Cookie加密  
     粘性Session  
     服务器Session复制  
-    Session共享(缓存)
-    Session持久化到数据库
+    Session共享(缓存)  
+    Session持久化到数据库  
 * [分布式锁的场景](https://www.cnblogs.com/yuyutianxia/p/7149363.html)  
     交易系统的金额修改，同一时间只能又一个人操作，比如秒杀场景，同一时间只能一个用户抢到，比如火车站抢票等  
 * [分布式锁的实现方案](https://www.cnblogs.com/yuyutianxia/p/7149363.html)  
@@ -742,7 +744,7 @@
     5、数据库主从分离，读写分离，降低读写针对同一表同时的压力，至于主从同步，mysql有自带的binlog实现 主从同步  
     6、explain分析sql语句，查看执行计划，分析索引是否用上，分析扫描行数等等  
     7、查看mysql执行日志，看看是否有其他方面的问题  
-      
+    
 ### 解决方案
 
 #### 算法
