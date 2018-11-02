@@ -264,6 +264,71 @@
     HashMap 的底层实现：链表大于8会转换为红黑树  
     JVM 由元空间代替了永久代，元空间并不在虚拟机中，而是使用本地内存  
   
+### 框架篇  
+  
+#### Spring  
+  
+* [BeanFactory 和 ApplicationContext 有什么区别](https://blog.csdn.net/qq_36074233/article/details/76153039)  
+
+* [Spring IOC 如何实现](https://www.jianshu.com/p/5c781f264467?from=groupmessage)  
+* [Spring IOC 容器初始化过程](https://www.cnblogs.com/chenjunjie12321/p/6124649.html)  
+    Resource定位（Bean的定义文件定位）  
+    将Resource定位好的资源载入到BeanDefinition  
+    将BeanDefiniton注册到容器中  
+* [Spring Bean 的生命周期](https://blog.csdn.net/a327369238/article/details/52193822)  
+    postProcessBeanFactory(ConfigurableListableBeanFactory c)  
+    实现BeanFactoryPostProcessor接口  
+    
+    postProcessBeforeInstantiation(Class<？>c,String beanName)  
+    实现InstantiationAwareBeanPostProcessor接口  
+    
+    postProcessAfterInstantiation(Object bean,String beanName)  
+    同上  
+    
+    postProcessPropertyValue  
+    同上  
+    
+    setBeanName(String beanName)  
+    实现BeanNameAware接口  
+    
+    setBeanFactory(BeanFactory factory)  
+    实现BeanFactoryAware接口  
+    
+    postProcessBeforeInitialization(Object bean,String beanName)  
+    实现InstantiationAwareBeanPostProcessor接口  
+    
+    afterPropertiesSet()  
+    实现InitializingBean接口  
+    
+    xml_init()  
+    init-method=”xml_init”  
+    
+    postProcessAfterInitialization(Object bean,Strign beanName)  
+    实现BeanPostProcessor接口  
+    
+    destroy()  
+    实现DisposableBean接口  
+    
+    xml_destroy()  
+    destroy-method=”xml_destroy”  
+* [说说 Spring AOP](https://www.cnblogs.com/hongwz/p/5764917.html)  
+* [Spring AOP 实现原理](https://blog.csdn.net/moreevan/article/details/11977115/)  
+* [动态代理（cglib 与 JDK）](https://blog.csdn.net/u013126379/article/details/52121096)  
+    如果目标实现了接口，默认情况下会采用JDK的动态代理实现AOP  
+    JDK动态代理只能对实现了接口的类生成代理  
+    CGLIB是针对类实现代理，主要是对指定的类生成一个子类，覆盖其中的方法  
+* [Spring 事务实现方式](https://blog.csdn.net/liaohaojian/article/details/70139151)  
+* [Spring 事务底层原理](https://blog.csdn.net/u010853261/article/details/78118619)  
+* [如何自定义注解实现功能](https://www.jb51.net/article/131472.htm)  
+* [Spring MVC 运行流程](https://blog.csdn.net/james_shu/article/details/54616120)  
+* [Spring MVC 启动流程](https://www.cnblogs.com/RunForLove/p/5688731.html)  
+* [Spring MVC 和 Struts 的区别](https://blog.csdn.net/generalyy0/article/details/7003974)  
+    类级别 方法级别  
+* [Spring 的单例实现原理](https://blog.csdn.net/cs408/article/details/48982085)  
+    普通单例不能被继承，单例注册表，HashMap对象  
+* [Spring 框架中用到了哪些设计模式](https://www.cnblogs.com/jifeng/p/7398852.html)  
+* [Spring 其他产品（Srping Boot、Spring Cloud、Spring Secuirity、Spring Data、Spring AMQP 等）](https://www.jianshu.com/p/b3e4aaa83a7d)  
+  
 ### 核心篇  
   
 #### 数据存储  
@@ -341,7 +406,7 @@
     2、硬盘中的结点也是B-tree结构的。与内存相比，硬盘必须花成倍的时间来存取一个数据元素，这是因为硬盘的机械部件读写数据的速度远远赶不上纯电子媒体的内存。与一个结点两个分支的二元树相比，B-tree利用多个分支（称为子树）的结点，减少获取记录时所经历的结点数，从而达到节省存取时间的目的。  
 * [聚集索引与非聚集索引的区别](https://blog.csdn.net/zc474235918/article/details/50580639)  
 * [数据库事务](https://www.cnblogs.com/fjdingsd/p/5273008.html)  
-    ACID，脏读，不可重复读，虚读。  
+    ACID，脏读，不可重复读，幻读。  
     读未提交，读已提交，可重复读，串行化。  
     默认隔离级别是可重复读。  
 * [limit 20000 加载很慢怎么解决](http://ourmysql.com/archives/1451)  
@@ -386,11 +451,16 @@
     3、商品搜索 通过商品的关键字去数据源中查找符合条件的商品  
 * [行列转换](https://www.cnblogs.com/johden2/p/5692765.html)  
 * [left join on 后 and 和 where 的区别](https://www.cnblogs.com/johden2/p/5692765.html)  
-  
+
 #### 缓存使用  
   
 * [Redis 有哪些类型](https://blog.csdn.net/hcmony/article/details/80694560)  
     string，hash，list，set，zset  
+    1、string 一般做一些复杂的计数功能的缓存。  
+    2、hash 这里value存放的是结构化的对象，比较方便的就是操作其中的某个字段。  
+    3、list 使用List的数据结构，可以做简单的消息队列的功能。另外还有一个就是，可以利用lrange命令，做基于redis的分页功能，性能极佳，用户体验好。  
+    4、set 因为set堆放的是一堆不重复值的集合。所以可以做全局去重的功能。为什么不用JVM自带的Set进行去重？因为我们的系统一般都是集群部署，使用JVM自带的Set，比较麻烦，难道为了一个做一个全局去重，再起一个公共服务，太麻烦了。  另外，就是利用交集、并集、差集等操作，可以计算共同喜好，全部的喜好，自己独有的喜好等功能。  
+    5、sorted set sorted set多了一个权重参数score,集合中的元素能够按score进行排列。可以做排行榜应用，取TOP N操作。另外，参照另一篇《分布式之延时任务方案解析》，该文指出了sorted set可以用来做延时任务。最后一个应用就是可以做范围查找。  
     
 * [Redis 内部结构](https://www.cnblogs.com/wykCN/p/4533231.html)  
     字符串、双端链表、字典、跳跃表  
@@ -406,13 +476,15 @@
     5、volatile-random：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，随机移除某个key。依然不推荐  
     6、volatile-ttl：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，有更早过期时间的key优先移除。不推荐  
 * [聊聊 Redis 使用场景](https://blog.csdn.net/hcmony/article/details/80694560)  
-    1、String 一般做一些复杂的计数功能的缓存。  
-    2、hash 这里value存放的是结构化的对象，比较方便的就是操作其中的某个字段。  
-    3、list 使用List的数据结构，可以做简单的消息队列的功能。另外还有一个就是，可以利用lrange命令，做基于redis的分页功能，性能极佳，用户体验好。  
-    4、set 因为set堆放的是一堆不重复值的集合。所以可以做全局去重的功能。为什么不用JVM自带的Set进行去重？因为我们的系统一般都是集群部署，使用JVM自带的Set，比较麻烦，难道为了一个做一个全局去重，再起一个公共服务，太麻烦了。  另外，就是利用交集、并集、差集等操作，可以计算共同喜好，全部的喜好，自己独有的喜好等功能。  
-    5、sorted set sorted set多了一个权重参数score,集合中的元素能够按score进行排列。可以做排行榜应用，取TOP N操作。另外，参照另一篇《分布式之延时任务方案解析》，该文指出了sorted set可以用来做延时任务。最后一个应用就是可以做范围查找。  
+    缓存热数据  
+    Session共享  
+    分布式锁  
+    最终一致性  
+    
 * [Redis 持久化机制](http://blog.720ui.com/2016/redis_action_03_rdb_aof/)  
     快照，AOF  
+* [Redis 事务](https://www.cnblogs.com/kyrin/p/5967620.html)  
+    MULTI、EXEC、DISCARD、WATCH、UNWATCH  
 * [Redis 集群方案与实现](http://blog.720ui.com/2016/redis_action_04_cluster/)  
     先更新数据库，再更新缓存  
     先删除缓存，再更新数据库  
@@ -451,70 +523,7 @@
 * [自己如何实现消息队列](https://www.cnblogs.com/yswenli/p/9029587.html)  
 * [如何保证消息的有序性](https://yq.aliyun.com/articles/73672)  
   
-### 框架篇  
-  
-#### Spring  
-  
-* [BeanFactory 和 ApplicationContext 有什么区别](https://blog.csdn.net/qq_36074233/article/details/76153039)  
-
-* [Spring IOC 如何实现](https://www.jianshu.com/p/5c781f264467?from=groupmessage)  
-* [Spring IOC 容器初始化过程](https://www.cnblogs.com/chenjunjie12321/p/6124649.html)  
-    Resource定位（Bean的定义文件定位）  
-    将Resource定位好的资源载入到BeanDefinition  
-    将BeanDefiniton注册到容器中  
-* [Spring Bean 的生命周期](https://blog.csdn.net/a327369238/article/details/52193822)  
-    postProcessBeanFactory(ConfigurableListableBeanFactory c)  
-    实现BeanFactoryPostProcessor接口  
-    
-    postProcessBeforeInstantiation(Class<？>c,String beanName)  
-    实现InstantiationAwareBeanPostProcessor接口  
-    
-    postProcessAfterInstantiation(Object bean,String beanName)  
-    同上  
-    
-    postProcessPropertyValue  
-    同上  
-    
-    setBeanName(String beanName)  
-    实现BeanNameAware接口  
-    
-    setBeanFactory(BeanFactory factory)  
-    实现BeanFactoryAware接口  
-    
-    postProcessBeforeInitialization(Object bean,String beanName)  
-    实现InstantiationAwareBeanPostProcessor接口  
-    
-    afterPropertiesSet()  
-    实现InitializingBean接口  
-    
-    xml_init()  
-    init-method=”xml_init”  
-    
-    postProcessAfterInitialization(Object bean,Strign beanName)  
-    实现BeanPostProcessor接口  
-    
-    destroy()  
-    实现DisposableBean接口  
-    
-    xml_destroy()  
-    destroy-method=”xml_destroy”  
-* [说说 Spring AOP](https://www.cnblogs.com/hongwz/p/5764917.html)  
-* [Spring AOP 实现原理](https://blog.csdn.net/moreevan/article/details/11977115/)  
-* [动态代理（cglib 与 JDK）](https://blog.csdn.net/u013126379/article/details/52121096)  
-    如果目标实现了接口，默认情况下会采用JDK的动态代理实现AOP  
-    JDK动态代理只能对实现了接口的类生成代理  
-    CGLIB是针对类实现代理，主要是对指定的类生成一个子类，覆盖其中的方法  
-* [Spring 事务实现方式](https://blog.csdn.net/liaohaojian/article/details/70139151)  
-* [Spring 事务底层原理](https://blog.csdn.net/u010853261/article/details/78118619)  
-* [如何自定义注解实现功能](https://www.jb51.net/article/131472.htm)  
-* [Spring MVC 运行流程](https://blog.csdn.net/james_shu/article/details/54616120)  
-* [Spring MVC 启动流程](https://www.cnblogs.com/RunForLove/p/5688731.html)  
-* [Spring MVC 和 Struts 的区别](https://blog.csdn.net/generalyy0/article/details/7003974)  
-    类级别 方法级别  
-* [Spring 的单例实现原理](https://blog.csdn.net/cs408/article/details/48982085)  
-    普通单例不能被继承，单例注册表，HashMap对象  
-* [Spring 框架中用到了哪些设计模式](https://www.cnblogs.com/jifeng/p/7398852.html)  
-* [Spring 其他产品（Srping Boot、Spring Cloud、Spring Secuirity、Spring Data、Spring AMQP 等）](https://www.jianshu.com/p/b3e4aaa83a7d)  
+### 微服务篇  
   
 #### Netty  
   
@@ -526,8 +535,6 @@
 * [说说 Netty 的零拷贝](https://my.oschina.net/plucury/blog/192577)  
 * [Netty 内部执行流程](https://www.cnblogs.com/f1194361820/p/5656440.html)  
 * [Netty 重连实现](http://www.importnew.com/25046.html)  
-  
-### 微服务篇  
   
 #### 微服务  
   
@@ -561,7 +568,7 @@
 * [说说 CAP 定理、 BASE 理论](https://www.jdon.com/37625)  
     一致性、可用性、分区容忍性；基本可用、软状态、最终一致；  
 * [怎么考虑数据一致性问题](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency)  
-* [说说最终一致性的实现方案](http://iamzhongyong.iteye.com/blog/2240891)  
+* [说说最终一致性的实现方案](http://iamzhongyong.iteye.com/blog/2240891) [方案2](https://segmentfault.com/a/1190000011479826)  
     可靠消息最终一致性（事务型消息队列、消息队列+定时补偿机制）  
     TCC编程模式  
     最大努力通知  
@@ -666,6 +673,11 @@
     5、数据库主从分离，读写分离，降低读写针对同一表同时的压力，至于主从同步，mysql有自带的binlog实现 主从同步  
     6、explain分析sql语句，查看执行计划，分析索引是否用上，分析扫描行数等等  
     7、查看mysql执行日志，看看是否有其他方面的问题  
+    
+### 解决方案
+
+#### 算法
+* [常见排序算法思路](https://www.cnblogs.com/huanyi0723/p/6161084.html)
   
 ### 工程篇  
   

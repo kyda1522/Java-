@@ -72,6 +72,28 @@
 * [ABA 问题](https://www.cnblogs.com/549294286/p/3766717.html)
 * [乐观锁的业务场景及实现方式](https://blog.csdn.net/lxy344x/article/details/76560243)
 * [Java 8 新特性](http://www.importnew.com/11908.html)
+
+### 框架篇
+
+#### Spring
+
+* [BeanFactory 和 ApplicationContext 有什么区别](https://blog.csdn.net/qq_36074233/article/details/76153039)
+* [Spring IOC 如何实现](https://www.jianshu.com/p/5c781f264467?from=groupmessage)
+* [Spring IOC 容器初始化过程](https://www.cnblogs.com/chenjunjie12321/p/6124649.html)
+* [Spring Bean 的生命周期](https://blog.csdn.net/a327369238/article/details/52193822)
+* [说说 Spring AOP](https://www.cnblogs.com/hongwz/p/5764917.html)
+* [Spring AOP 实现原理](https://blog.csdn.net/moreevan/article/details/11977115/)
+* [动态代理（cglib 与 JDK）](https://blog.csdn.net/u013126379/article/details/52121096)
+* [Spring 事务实现方式](https://blog.csdn.net/liaohaojian/article/details/70139151)
+* [Spring 事务底层原理](https://blog.csdn.net/u010853261/article/details/78118619)
+* [如何自定义注解实现功能](https://www.jb51.net/article/131472.htm)
+* [Spring MVC 运行流程](https://blog.csdn.net/james_shu/article/details/54616120)
+* [Spring MVC 启动流程](https://www.cnblogs.com/RunForLove/p/5688731.html)
+* [Spring MVC 和 Struts 的区别](https://blog.csdn.net/generalyy0/article/details/7003974)
+* [Spring 的单例实现原理](https://blog.csdn.net/cs408/article/details/48982085)
+* [Spring 框架中用到了哪些设计模式](https://www.cnblogs.com/jifeng/p/7398852.html)
+* [Spring 其他产品（Srping Boot、Spring Cloud、Spring Secuirity、Spring Data、Spring AMQP 等）](https://www.jianshu.com/p/b3e4aaa83a7d)
+
 ### 核心篇
 
 #### 数据存储
@@ -109,6 +131,7 @@
 * [Redis 内存淘汰机制](https://blog.csdn.net/hcmony/article/details/80694560)
 * [聊聊 Redis 使用场景](https://blog.csdn.net/hcmony/article/details/80694560)
 * [Redis 持久化机制](http://blog.720ui.com/2016/redis_action_03_rdb_aof/)
+* [Redis 事务](https://www.cnblogs.com/kyrin/p/5967620.html)  
 * [Redis 集群方案与实现](http://blog.720ui.com/2016/redis_action_04_cluster/)
 * [Redis 为什么是单线程的](https://blog.csdn.net/hcmony/article/details/80694560)
 * [缓存崩溃](https://blog.csdn.net/hcmony/article/details/80694560)
@@ -124,26 +147,7 @@
 * [自己如何实现消息队列](https://www.cnblogs.com/yswenli/p/9029587.html)
 * [如何保证消息的有序性](https://yq.aliyun.com/articles/73672)
 
-### 框架篇
-
-#### Spring
-
-* [BeanFactory 和 ApplicationContext 有什么区别](https://blog.csdn.net/qq_36074233/article/details/76153039)
-* [Spring IOC 如何实现](https://www.jianshu.com/p/5c781f264467?from=groupmessage)
-* [Spring IOC 容器初始化过程](https://www.cnblogs.com/chenjunjie12321/p/6124649.html)
-* [Spring Bean 的生命周期](https://blog.csdn.net/a327369238/article/details/52193822)
-* [说说 Spring AOP](https://www.cnblogs.com/hongwz/p/5764917.html)
-* [Spring AOP 实现原理](https://blog.csdn.net/moreevan/article/details/11977115/)
-* [动态代理（cglib 与 JDK）](https://blog.csdn.net/u013126379/article/details/52121096)
-* [Spring 事务实现方式](https://blog.csdn.net/liaohaojian/article/details/70139151)
-* [Spring 事务底层原理](https://blog.csdn.net/u010853261/article/details/78118619)
-* [如何自定义注解实现功能](https://www.jb51.net/article/131472.htm)
-* [Spring MVC 运行流程](https://blog.csdn.net/james_shu/article/details/54616120)
-* [Spring MVC 启动流程](https://www.cnblogs.com/RunForLove/p/5688731.html)
-* [Spring MVC 和 Struts 的区别](https://blog.csdn.net/generalyy0/article/details/7003974)
-* [Spring 的单例实现原理](https://blog.csdn.net/cs408/article/details/48982085)
-* [Spring 框架中用到了哪些设计模式](https://www.cnblogs.com/jifeng/p/7398852.html)
-* [Spring 其他产品（Srping Boot、Spring Cloud、Spring Secuirity、Spring Data、Spring AMQP 等）](https://www.jianshu.com/p/b3e4aaa83a7d)
+### 微服务篇
 
 #### Netty
 
@@ -155,8 +159,6 @@
 * [说说 Netty 的零拷贝](https://my.oschina.net/plucury/blog/192577)
 * [Netty 内部执行流程](https://www.cnblogs.com/f1194361820/p/5656440.html)
 * [Netty 重连实现](http://www.importnew.com/25046.html)
-
-### 微服务篇
 
 #### 微服务
 
@@ -172,7 +174,7 @@
 * [如何保证接口的幂等性](https://blog.csdn.net/jks456/article/details/71453053)
 * [说说 CAP 定理、 BASE 理论](https://www.jdon.com/37625)
 * [怎么考虑数据一致性问题](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency)
-* [说说最终一致性的实现方案](http://iamzhongyong.iteye.com/blog/2240891)
+* [说说最终一致性的实现方案](http://iamzhongyong.iteye.com/blog/2240891) [方案2](https://segmentfault.com/a/1190000011479826)  
 * [你怎么看待微服务](https://blog.csdn.net/kde/article/details/51817622)
 * [微服务与 SOA 的区别](https://www.cnblogs.com/ynuo/p/5913955.html)
 * [如何拆分服务](https://blog.csdn.net/u012422829/article/details/68951579?utm_source=itdadao&utm_medium=referral)
@@ -212,7 +214,12 @@
 * [如何发现性能瓶颈](http://www.cnblogs.com/zhangyublogs/p/4965870.html)
 * [性能调优的常见手段](https://blog.csdn.net/fanyun_01/article/details/79942408)
 * [说说你在项目中如何进行性能调优](http://blog.51cto.com/caotian/2074652)
+    
+### 解决方案
 
+#### 算法
+* [常见排序算法思路](https://www.cnblogs.com/huanyi0723/p/6161084.html)
+  
 ### 工程篇
 
 #### 需求分析
