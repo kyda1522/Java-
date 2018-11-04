@@ -615,6 +615,7 @@
     DNS域名解析、数据链路层负载均衡(LVS)、IP负载均衡(SNAT)、HTTP重定向负载均衡(少见)、反向代理负载均衡(nginx)  
 * [CDN](https://help.aliyun.com/document_detail/27101.html?spm=a2c4g.11186623.6.542.17262a14QEcvN2)  
 * [Dubbo](https://blog.csdn.net/moakun/article/details/82919804)  
+* [ZooKeeper](https://blog.csdn.net/weijifeng_/article/details/79775738)  
 * [Hadoop](https://blog.csdn.net/qq_26437925/article/details/78467216)  
   
 #### 安全问题  
