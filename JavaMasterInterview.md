@@ -9,17 +9,58 @@
   
 * [面向对象特征](https://blog.csdn.net/lyg_come_on/article/details/52781884)  
 * [final, finally, finalize的区别](https://blog.csdn.net/cyl101816/article/details/67640843)  
+    final是关键字。被final修饰的类，就意味着不能再派生出新的子类，不能作为父类而被子类继承。  
+    finally是关键字。在异常处理时提供finally块来执行任何清除操作。  
+    finalize()是方法。Object类的finalize()在垃圾收集器将对象从内存中清除出去之前做必要的清理工作。  
 * [int 和 Integer 有什么区别](https://blog.csdn.net/login_sonata/article/details/71001851)  
 * [重载和重写的区别](https://blog.csdn.net/u010697681/article/details/79414112#_73)  
+    重写（Override）是指子类对父类方法的一种重写，只能比父类抛出更少的异常，访问权限不能比父类的小。被重写的方法不能是 private的，否则只是在子类中重新定义了一个方法；  
+    重载（Overload）表示同一个类中可以有多个名称相同的方法，但这些方法的参数列表各不相同。函数的返回值不同不可以构成重载。  
 * [抽象类和接口有什么区别](https://blog.csdn.net/dengminghli/article/details/71056874)  
+    1.抽象类可以有具体方法，可以没有抽象方法，而接口中只能存在抽象方法（默认 public abstract），Java8 中接口中会有 default 方法。  
+    2.抽象类中可以有普通的成员变量；接口中的变量必须是 static final 类型的，必须被初始化 , 接口中只有常量，没有变量。  
+    3.一个类只能继承一个抽象类（单继承），但可以实现多个接口（多继承）。  
+    4.抽象类中允许含有静态代码块和静态方法，而接口类不能。  
 * [说说反射的用途及实现](https://blog.csdn.net/SongYuxinIT/article/details/81872066)  
+    反射允许程序在运行时对其内部成员进行操作，最重要的用途就是开发各种通用框架。  
+    反射主要功能有：获取Class对象、构造器、成员变量和方法；创建对象；调用方法。  
 * [说说自定义注解的场景及实现](https://blog.csdn.net/qq_37581282/article/details/82655326)  
     登录、权限拦截、日志处理，以及各种 Java 框架，如 Spring ，Hibernate，JUnit。  
 * [HTTP 请求的 GET 与 POST 方式的区别](https://www.cnblogs.com/ouyanxia/p/8205307.html)  
+    GET：  
+    请求的数据会附加在URL之后，以?分割URL和传输数据，多个参数用&连接；  
+    在HTTP规范中，没有对长度和大小限制，但是浏览器和服务器对URL的长度有限制；  
+    明文传输会造成数据泄露及CSRF攻击；  
+    产生一个TCP数据包。  
+    POST：  
+    请求的数据放置在HTTP请求包的包体中；  
+    理论无限制，但是服务器会对POST提交数据大小进行限制；  
+    参数在消息主体中，参数不会被保存在缓存、浏览器历史或日志中；  
+    产生两个TCP数据包。  
 * [session 与 cookie 区别](https://blog.csdn.net/liyifan687/article/details/80077928)  
+    Cookies是服务器在本地机器上存储的小段文本并随每一个请求发送至同一服务器，是在客户端保持状态的方案。  
+    Session是存在服务器的一种用来存放用户数据的类HashTable结构。浏览器发送请求时，服务器自动生成了HashTable和Session ID来唯一标识这个HashTable，并将其发送到浏览器。浏览器再次请求会将Session ID一并发送到服务器，服务器提取出Session ID，找到对应的HashTable。  
+    区别：  
+    Session 能够存储任意的 Java 对象，Cookie 只能存储 String 类型的对象;  
+    一个在客户端一个在服务端。Cookie伪造；  
+    域的支持范围不一样，跨域资源共享。  
 * [JDBC 流程](https://www.cnblogs.com/lightandtruth/p/9473862.html)  
+    注册驱动  
+    建立连接(Connection)  
+    创建运行SQL的语句(Statement)  
+    运行语句  
+    处理运行结果(ResultSet)  
+    释放资源  
 * [MVC 设计思想](https://blog.csdn.net/daijin888888/article/details/51169156)  
+    将一个软件按照模型、视图、控制器进行划分。其中，模型用来封装业务逻辑，视图用来实现表示逻辑，控制器用来协调模型与视图。  
+    优点：  
+    实现模型的复用，不用关心处理结果如何展现；  
+    代码的维护性更好；  
+    方便测试；  
 * [equals 与 == 的区别](https://blog.csdn.net/g_66_hero/article/details/71081315)  
+    ==比较的是内存地址；  
+    equals用来比较的是两个对象的内容是否相等，重写Object类的equals方法，默认是==；  
+    String中当且仅当该参数不为 null，并且是与此对象表示相同字符序列的 String 对象时，结果才为 true。  
 * [NIO和IO的区别](https://www.jb51.net/article/50621.htm)  
     IO 面向流 阻塞  
     NIO 面向缓冲 非阻塞IO 选择器  
@@ -68,7 +109,12 @@
     确保了在各种加载环境的加载顺序，保证了唯一性和运行的安全性。  
   
 * [类加载器有哪些？](https://blog.csdn.net/hsk256/article/details/49104955)  
-    启动类加载器，扩展类加载器，应用程序类加载器(System)，用户自定义类加载器。  
+    实现通过类的权限定名获取该类的二进制字节流的代码块叫做类加载器。  
+    主要有一下四种类加载器:  
+    启动类加载器(Bootstrap)用来加载java核心类库，无法被java程序直接引用。  
+    扩展类加载器(Extension):它用来加载 Java 的扩展库。Java 虚拟机的实现会提供一个扩展库目录。该类加载器在此目录里面查找并加载 Java 类。  
+    应用程序类加载器(System)：它根据 Java 应用的类路径CLASSPATH来加载 Java 类。一般来说，Java 应用的类都是由它来完成加载的。可以通过 ClassLoader.getSystemClassLoader()来获取它。  
+    用户自定义类加载器，通过继承 java.lang.ClassLoader类的方式实现。  
   
 * [内存分配与回收策率以及Minor GC和Major GC](https://blog.csdn.net/hsk256/article/details/49104955)  
     对象优先在堆的Eden区分配。  
@@ -79,16 +125,19 @@
 #### 集合  
   
 * [List 和 Set 区别](https://www.cnblogs.com/IvesHe/p/6108933.html)  
-
+    
 * [List 和 Map 区别](https://www.cnblogs.com/IvesHe/p/6108933.html)  
 * [Arraylist 与 LinkedList 区别](https://blog.csdn.net/qq_32679815/article/details/78907437)  
 * [ArrayList 与 Vector 区别](https://www.cnblogs.com/efforts-will-be-lucky/p/7053666.html)  
-    扩容方式不同，Vector可以设置增长因子，而ArrayList不可以。  
+    Vector是多线程安全的，ArrayList不是，Vector效率比ArrayList低；  
+    初始10，空间不足的时候，扩容方式不同，Vector可以设置增长因子，而ArrayList不可以。  
 * [HashMap 和 Hashtable 的区别](https://www.cnblogs.com/efforts-will-be-lucky/p/7053666.html)  
     HashMap 把 HashTable 的contains方法替换为containsValue()和containsKey()方法;  
     Hashtable 是同步的，HashMap 是非同步的，HashMap 效率高;  
     HashMap 允许空键值，而 Hashtable 不允许。  
 * [HashSet 和 HashMap 区别](https://www.cnblogs.com/codercui/p/6841730.html)  
+    Set是线性结构，Set中的值不能重复，HashSet是Set的hash实现，HashSet中值不能重复是用HashMap的key来实现的。  
+    Map是键值对映射，可以空键空值。HashMap是Map接口的hash实现，key的唯一性是通过key值hash值的唯一来确定，value值是则是链表结构。  
 * [HashMap 和 ConcurrentHashMap 的区别](https://www.cnblogs.com/heyonggang/p/9112731.html)  
     ConcurrentHashMap对整个桶数组进行了分割分段(Segment)，然后在每一个分段上都用lock锁进行保护，相对于HashTable的syn关键字锁的粒度更精细了一些，并发性能更好，而HashMap没有锁机制，不是线程安全的；  
     HashMap的键值对允许有null，但是ConcurrentHashMap都不允许。  
@@ -183,7 +232,17 @@
     6、线程池的关闭  
     7、线程池容量的动态调整  
 * [线程池的几种方式与使用场景](https://blog.csdn.net/cyantide/article/details/50880211)  
+    newFixedThreadPool(int nThreads)  
+    创建一个固定长度的线程池，每当提交一个任务就创建一个线程，直到达到线程池的最大数量，这时线程规模将不再变化，当线程发生未预期的错误而结束时，线程池会补充一个新的线程  
+    newCachedThreadPool()  
+    创建一个可缓存的线程池，如果线程池的规模超过了处理需求，将自动回收空闲线程，而当需求增加时，则可以自动添加新线程，线程池的规模不存在任何限制  
+    newSingleThreadExecutor()  
+    这是一个单线程的Executor，它创建单个工作线程来执行任务，如果这个线程异常结束，会创建一个新的来替代它；它的特点是能确保依照任务在队列中的顺序来串行执行  
+    newScheduledThreadPool(int corePoolSize)  
+    创建了一个固定长度的线程池，而且以延迟或定时的方式来执行任务，类似于Timer。  
 * [线程的生命周期](https://blog.csdn.net/houbin0912/article/details/77969563)  
+    新建(New)、就绪(Runnable)、运行(Running)、阻塞(Blocked)和死亡(Dead)  
+    <img width="536" height="368" src="http://images.cnitblog.com/i/426802/201406/232002051747387.jpg"/>
   
 #### 锁机制  
   
@@ -276,41 +335,17 @@
     将Resource定位好的资源载入到BeanDefinition  
     将BeanDefiniton注册到容器中  
 * [Spring Bean 的生命周期](https://blog.csdn.net/a327369238/article/details/52193822)  
-    postProcessBeanFactory(ConfigurableListableBeanFactory c)  
-    实现BeanFactoryPostProcessor接口  
-    
-    postProcessBeforeInstantiation(Class<？>c,String beanName)  
-    实现InstantiationAwareBeanPostProcessor接口  
-    
-    postProcessAfterInstantiation(Object bean,String beanName)  
-    同上  
-    
-    postProcessPropertyValue  
-    同上  
-    
-    setBeanName(String beanName)  
-    实现BeanNameAware接口  
-    
-    setBeanFactory(BeanFactory factory)  
-    实现BeanFactoryAware接口  
-    
-    postProcessBeforeInitialization(Object bean,String beanName)  
-    实现InstantiationAwareBeanPostProcessor接口  
-    
-    afterPropertiesSet()  
-    实现InitializingBean接口  
-    
-    xml_init()  
-    init-method=”xml_init”  
-    
-    postProcessAfterInitialization(Object bean,Strign beanName)  
-    实现BeanPostProcessor接口  
-    
-    destroy()  
-    实现DisposableBean接口  
-    
-    xml_destroy()  
-    destroy-method=”xml_destroy”  
+    1、实例化一个Bean  
+    2、对Bean进行配置，也就是IOC注入  
+    3、如果Bean实现了BeanNameAware接口，调用setBeanName方法  
+    4、如果Bean实现了BeanFactoryAware接口，调用setBeanFactory方法  
+    5、如果Bean实现了ApplicationContextAware接口，调用setApplicationContext方法  
+    6、如果Bean实现了BeanPostProcessor接口，调用postProcessBeforeInitialization方法  
+    7、如果Bean实现了InitializingBean接口，调用afterPropertiesSet()方法  
+    8、如果Bean配置了init-method，调用配置的方法  
+    9、如果Bean实现了BeanPostProcessor接口，调用postProcessAfterInitialization方法  
+    10、清理阶段，如果Bean实现了DisposableBean接口，调用destroy()方法  
+    11、如果Bean配置了destroy-method，调用配置的销毁方法  
 * [说说 Spring AOP](https://www.cnblogs.com/hongwz/p/5764917.html)  
 * [Spring AOP 实现原理](https://blog.csdn.net/moreevan/article/details/11977115/)  
 * [动态代理（cglib 与 JDK）](https://blog.csdn.net/u013126379/article/details/52121096)  
@@ -321,6 +356,7 @@
 * [Spring 事务底层原理](https://blog.csdn.net/u010853261/article/details/78118619)  
 * [如何自定义注解实现功能](https://www.jb51.net/article/131472.htm)  
 * [Spring MVC 运行流程](https://blog.csdn.net/james_shu/article/details/54616120)  
+    <img src="https://images2015.cnblogs.com/blog/799093/201607/799093-20160724233025107-1243112232.jpg"/>
 * [Spring MVC 启动流程](https://www.cnblogs.com/RunForLove/p/5688731.html)  
 * [Spring MVC 和 Struts 的区别](https://blog.csdn.net/generalyy0/article/details/7003974)  
     类级别 方法级别  
