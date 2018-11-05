@@ -8,6 +8,7 @@
 #### 基础  
   
 * [面向对象特征](https://blog.csdn.net/lyg_come_on/article/details/52781884)  
+
 * [final, finally, finalize的区别](https://blog.csdn.net/cyl101816/article/details/67640843)  
     final是关键字。被final修饰的类，就意味着不能再派生出新的子类，不能作为父类而被子类继承。  
     finally是关键字。在异常处理时提供finally块来执行任何清除操作。  
@@ -61,9 +62,10 @@
     ==比较的是内存地址；  
     equals用来比较的是两个对象的内容是否相等，重写Object类的equals方法，默认是==；  
     String中当且仅当该参数不为 null，并且是与此对象表示相同字符序列的 String 对象时，结果才为 true。  
-* [NIO和IO的区别](https://www.jb51.net/article/50621.htm)  
+* [NIO 和 IO 的区别](https://www.jb51.net/article/50621.htm)  
     IO 面向流 阻塞  
     NIO 面向缓冲 非阻塞IO 选择器  
+* [使用 NIO](https://blog.csdn.net/u011381576/article/details/79876754)  
 * [JAVA 锁有哪些种类，以及区别](https://www.cnblogs.com/lxmyhappy/p/7380073.html)  
     公平锁/非公平锁  
     可重入锁  
